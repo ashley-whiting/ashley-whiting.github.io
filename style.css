@@ -2,7 +2,6 @@
     max-width: 700 px;
     margin: 0 auto;
     font-family: "Times", sans-serif;
-    background-color: white;
 }
 
 h1{
@@ -30,10 +29,17 @@ nav {
     float: right;
     margin-top: -95px;
     position: relative;
+    box-shadow: 3px 7px 15px black, -3px 3px 15px black;
     border-top-right-radius: 15px;
 }
 
+header{
+    background-color: cornflowerblue;
+    color: white;
+}
 header, footer{
+    background-color: cornflowerblue;
+    width: 500px;
     padding: 1em;
     text-align: center;
     border-radius: 15px 15px;
