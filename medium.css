@@ -6,4 +6,25 @@
     h2 {
         font-size: 1.5em;
     }
+    
+    .header{
+       border-radius: 10px;
+       
+    }
+    .footer{
+        border-radius: 10px;
+        
+        
+    }
+
+    #profile{
+        float: right;
+        box-shadow: 5px 7px 5px grey;
+        border-radius: 15px;
+    }
+
+
+
 }
+
+
