@@ -13,6 +13,14 @@ main{}
     
     }
 
+.footer1, .footer2, .footer3{
+    padding: 10px;
+    text-align:left;
+    background-color: #F3F3F3;
+    color: black;
+    margin:0;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: 'Gelsasio', serif;
 }
@@ -27,7 +35,7 @@ main{
 main section{
     margin: 0.5rem;
     border: 1px solid black;
-    padding: 0 1rem;
+    padding: 0.1rem;
     background-color: #F3F3F3;
     margin: 0;
 }
