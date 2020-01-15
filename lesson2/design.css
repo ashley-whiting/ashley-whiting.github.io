@@ -5,11 +5,11 @@ font-family: 'Montserrat', sans-serif;
 main{}
 
 .header{
-    padding: 5px;
+    padding: 2px;
     text-align: left; 
-    background-color: navy;
+    background-color:darkblue;
     color: white;
-    font-size: 18px;
+    font-size: 12px;
     }
 
 h2, h3, h4, h5, h6 {
