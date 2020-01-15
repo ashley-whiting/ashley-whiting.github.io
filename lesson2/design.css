@@ -1,0 +1,59 @@
+body {
+
+}
+/* phone or baseline views ******/
+main{}
+
+h2 {}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section{
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    background-color: grey;
+}
+main pciture{
+    display: none;
+    margin: 0.5rem;
+}
+.colimage{}
+
+.colimage2{}
+
+.colimage3{}
+
+
+
+/*Tablet Views******/
+@media only screen and (min-width: 37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(3){
+        grid-column: span 2;
+    }
+
+    main picture {}
+    main section picture img {}
+}
+
+/*Desktop views ********/
+@media only screen and (min-width: 60em){
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3){
+        grid-column: span 1;
+    }
+}
+
+
