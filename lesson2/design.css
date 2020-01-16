@@ -42,16 +42,11 @@ section:nth-child(2){
     margin: 0.5rem;
 }
 
-.parallax{
-    background-image: url(images/GoldsGym.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.colimage{}
+
+.colimage{
+    max-height: 2em;
+}
 
 .colimage2{}
 
