@@ -43,6 +43,7 @@ section:nth-child(2){
 }
 
 .parallax{
+    background-image: url(images/GoldsGym.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
