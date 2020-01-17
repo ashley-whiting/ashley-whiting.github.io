@@ -39,7 +39,7 @@ main section{
     background-color: #F3F3F3;
 }
 section:nth-child(2){
-    display: none;
+    display: block;
     
 }
 
