@@ -1,0 +1,13 @@
+.body{
+   background-image: url("images/bright-day.png")
+}
+
+.top-header{
+    padding: 5px;
+    text-align: center;
+    background-color:#00B3DF;
+    color:black;
+    margin: 0;
+}
+
+
