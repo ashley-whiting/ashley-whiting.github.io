@@ -36,23 +36,25 @@ nav {
 
 }
 
+
+
+nav a {
+    color: black;
+    padding: 1em .6em;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
 nav ul{
     display: flex;
     margin: 0;
     color: black;
     padding: .5em 8 em;
     list-style: none;
-}
-
-nav a {
-    color: black;
-    padding: 1em .6em;
-    text-decoration: none;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    color:white;
 }
 
 .yours{
@@ -79,8 +81,11 @@ h1, h2, h3, h4, h5, h6{
     margin-top: -18.5em;
 }
 
-.day{
+#day{
     box-shadow: 4px 4px 4px #d5d5d78e;
+    margin-top: 90px;
+    
+    
 }
 .footer{
     padding: 45px;
