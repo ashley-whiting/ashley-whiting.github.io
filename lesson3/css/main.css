@@ -64,29 +64,8 @@ h1, h2, h3, h4, h5, h6{
     
     font-family: 'Raleway', sans-serif;
 }
-
-#purpose{
-    border: #f7d067 1px solid;
-    }
-
- .left{
-    width: 45%;
-    flex: 1 0 10em;
-    margin: .5em;
-}
-
-.right{
-    flex: 1 0 10em;
-    margin-left: 60em;
-    margin-top: -18.5em;
-}
-
-#day{
-    box-shadow: 4px 4px 4px #d5d5d78e;
-    margin-top: 90px;
     
-    
-}
+
 .footer{
     padding: 45px;
     background-color: #00B0DA;
