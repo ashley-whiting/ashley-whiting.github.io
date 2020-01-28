@@ -7,6 +7,8 @@
     <meta name="description" content="CIT 230 Portal Course Home Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
    </head>
@@ -23,12 +25,12 @@
         </div>
       </header>
       
-     
-    
-   <nav>
-       <ul>
+       
+   <nav class="clearfix">
+       <button onclick="toggleMenu()">&#9776;</button>
+       <ul id="primaryNav" class="hide">
            <li><a href="" target="_blank"></a>Home</li>
-           <li><a href="" target="_blank"></a>Preston</li>
+           <li class="active"><a href="" target="_blank"></a>Preston</li>
            <li><a href="" target="_blank"></a>Soda Springs</li>
            <li><a href="" target="_blank"></a>Fish Haven</li>
            <li><a href="" target="_blank"></a>Storm Center</li>
@@ -61,6 +63,6 @@
             </div>
        
       
-
+    <script src="js/javascript.js"></script>
     </body>
     </html>
