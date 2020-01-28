@@ -12,12 +12,22 @@
        
     }
    
-.colimage{}
-
-.colimage2{}
-
-.colimage3{}
-
-
 
 }
+*Tablet Views******/{
+@media only screen and (min-width: 37.5em)
+}
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    section:nth-child(2){
+        display: block;
+    }
+
+    section:nth-child(3){
+        grid-column: span 2;
+    }
+
+   

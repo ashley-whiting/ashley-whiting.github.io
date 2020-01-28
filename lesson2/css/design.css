@@ -43,19 +43,13 @@ h2, h3, h4, h5, h6 {
 
 main section{
     margin: 0;
-    padding: 0.1rem;
+    padding: 1.5rem;
     background-color: #F3F3F3;
 }
 
 
 
 
-.colimage{
-   }
-
-.colimage2{}
-
-.colimage3{}
 
 
 
@@ -74,8 +68,7 @@ main section{
         grid-column: span 2;
     }
 
-    main picture {}
-    main section picture img {}
+    
 }
 
 /*Desktop views ********/
