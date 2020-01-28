@@ -28,10 +28,7 @@ body{
         margin-top: -160px;
        
     }
-    .weather{
-        text-align: center;
-        text-size-adjust: 20px;
-    }
+    
     
     nav {
         background-color: #d5d5d7;
@@ -63,13 +60,35 @@ body{
         list-style: none;
     }
     
-   
+   .preston{
+       text-align: center;
+   }
     h1, h2, h3, h4, h5, h6{
         
         font-family: 'Raleway', sans-serif;
     }
-        
-    
+      
+    .box1{
+        background-color: lightgrey;
+        border: black dotted 1px;
+        align-content: center;
+    }
+    .box2{
+        background-color: lightgrey;
+        border: black dotted 1px;
+        align-content: center;
+    }
+    .box3{
+        background-color: lightgrey;
+        border: black dotted 1px;
+        align-content: center;
+    }
+    .box4{
+        background-color: lightgrey;
+        border: black dotted 1px;
+        align-content: center;
+    }
+
     .footer{
         padding: 45px;
         background-color: #00B0DA;
