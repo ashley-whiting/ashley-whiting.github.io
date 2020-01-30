@@ -13,9 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
 
     }
 
-    li{
-        padding: 1em;
-    }
+    
     nav button{
         display:none;
     }
