@@ -103,20 +103,69 @@ nav ul.hide{
      font-family: 'Raleway', sans-serif;
  }
    
- .box1{
-     background-color: lightgrey;
-     border: black dotted 1px;
-     align-content: center;
+ .hero{
+    display: flex;
+    justify-content: center;
  }
- .box2{
-     background-color: lightgrey;
-     border: black dotted 1px;
-     align-content: center;
+
+
+ .weathersummary{
+     position: absolute;
+     top: 30rem;
+     left: 2rem;
+     background: radial-gradient(grey, lightgrey);
+     border: transparent;
+     padding: .5rem;
+     box-shadow: 0 0 20px #777;
+     
  }
- .box3{
-     background-color: lightgrey;
-     border: black dotted 1px;
-     align-content: center;
+
+ table, th, td{
+     border: 1px solid #777;
+     border-collapse: collapse;
+     padding: 5px;
+ }
+
+ th{
+     font-weight: 800px;
+     font-size: 20px;
+     background-color: #00B0DA;
+      }
+
+td{
+    background-color:white;
+    font-size: 15px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+ 
+ .forecast{
+   display: flex;
+   justify-content: center;
+     
+ }
+
+ #article{
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .articlebody, .articleimg{
+     width: 50%;
+     flex: 1 0 15em;
+     margin: .5em;
+
+ }
+
+ #img1{
+     box-shadow: 6px 6px 6px #004e4e;
+     height: 300px;
+     width: auto;
  }
  .box4{
      background-color: lightgrey;
