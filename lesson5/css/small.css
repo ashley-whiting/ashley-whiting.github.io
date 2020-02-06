@@ -7,6 +7,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body{
     font-family: 'Overpass', sans-serif;
     }
+
+    main{
+        padding:40px;
+        display: block;
+    }
     
     #logo{
         
@@ -120,14 +125,16 @@ nav ul.hide{
  }
 
  .footer{
-     padding: 45px;
-     background-color: #00B0DA;
-     color:white;
-     margin: 0;
-     text-align: center;
-   
-     
- }
+    padding: 20px;
+    margin: 15px;
+    background-color: #00B0DA;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
+}
 
 
 
