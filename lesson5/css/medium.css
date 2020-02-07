@@ -1,6 +1,11 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
+    .map, .contactinfo{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
     
+    }  
    
 } /*end medium */
 

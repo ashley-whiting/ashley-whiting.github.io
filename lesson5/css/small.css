@@ -102,17 +102,22 @@ nav ul.hide{
      
      font-family: 'Raleway', sans-serif;
  }
-   
+ 
+
  .hero{
+    position: relative;
+    top: 5px;
     display: flex;
     justify-content: center;
+    width: 100%;
  }
 
+ 
 
  .weathersummary{
      position: absolute;
-     top: 30rem;
-     left: 2rem;
+     top: 5rem;
+     left: 10rem;
      background: radial-gradient(grey, lightgrey);
      border: transparent;
      padding: .5rem;
@@ -142,6 +147,9 @@ h3{
     text-decoration: underline;
 }
  
+#forecastdiv.hide{
+    display:none;
+}
  .forecast{
    display: flex;
    justify-content: center;
@@ -163,15 +171,39 @@ h3{
  }
 
  #img1{
-     box-shadow: 6px 6px 6px #004e4e;
+     box-shadow: 6px 6px 6px black;
      height: 300px;
      width: auto;
  }
+
+ .box3{
+    background-color: lightgrey;
+    border: black dotted 1px;
+    align-content: center;
+}
+
  .box4{
      background-color: lightgrey;
      border: black dotted 1px;
      align-content: center;
  }
+
+ #contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.map, .contactinfo{
+    width: 50%;
+    flex: 1 0 15em;
+    margin: .5em;
+
+}
+.map{
+    display:hide;
+}
+
 
  .footer{
     padding: 20px;

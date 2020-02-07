@@ -33,6 +33,17 @@ nav ul li a{
     border-right: 1px solid rgba(0,0,0,0.3);
     padding: .6rem 1rem;}
 
+    #forecastdiv.hide{
+        display:flex;
+    }
+
+    .map, .contactinfo{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
+    
+    }
+
     .footer{
         padding: 20px;
         margin: 15px;
