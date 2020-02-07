@@ -7,10 +7,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body{
     font-family: 'Overpass', sans-serif;
     }
-
+ 
     main{
         padding:40px;
         display: block;
+        margin: 0;
     }
     
     #logo{
@@ -200,11 +201,19 @@ h3{
     margin: .5em;
 
 }
-.map{
-    display:hide;
+#mapdiv.hide{
+    display:none;
 }
 
-
+#banner{
+    display:block;
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    color:black;
+    text-align:center;
+    
+}
  .footer{
     padding: 20px;
     margin: 15px;

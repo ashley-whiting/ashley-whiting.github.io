@@ -36,14 +36,20 @@ nav ul li a{
     #forecastdiv.hide{
         display:flex;
     }
-
+    .forecast{
+        display: flex;
+        justify-content: center;
+          
+      }
     .map, .contactinfo{
         width: 50%;
         flex: 1 0 15em;
         margin: .5em;
     
     }
-
+  #mapdiv.hide{
+      display: flex;
+  }
     .footer{
         padding: 20px;
         margin: 15px;
