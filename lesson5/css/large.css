@@ -33,8 +33,30 @@ nav ul li a{
     border-right: 1px solid rgba(0,0,0,0.3);
     padding: .6rem 1rem;}
 
+    .hero{
+        margin: 10px auto;
+        position: relative;
+        justify-content: center;
+        width: 100%
+    
+     }
+    
+     
+    
+     .weathersummary{
+         position: absolute;
+         top: 5rem;
+         left: 10rem;
+         background: radial-gradient(grey, lightgrey);
+         border: transparent;
+         padding: .5rem;
+         box-shadow: 0 0 20px #777;
+         opacity: .5;
+         
+     }
     #forecastdiv.hide{
         display:flex;
+        align-items: center;
     }
     .forecast{
         display: flex;

@@ -106,11 +106,11 @@ nav ul.hide{
  
 
  .hero{
+    margin: 10px auto;
     position: relative;
-    top: 5px;
-    display: flex;
     justify-content: center;
     width: 100%;
+
  }
 
  
@@ -123,6 +123,7 @@ nav ul.hide{
      border: transparent;
      padding: .5rem;
      box-shadow: 0 0 20px #777;
+     opacity: .5;
      
  }
 
@@ -176,17 +177,28 @@ h3{
      height: 300px;
      width: auto;
  }
-
+ .box1{
+    padding: 10px;
+    border: black solid 1px;
+    align-content: center;
+}
+ .box2{
+    width: 100%;
+    padding: 10px;
+    border: black solid 1px;
+    align-content: center;
+}
  .box3{
     background-color: lightgrey;
-    border: black dotted 1px;
+    border: black solid 1px;
     align-content: center;
 }
 
  .box4{
      background-color: lightgrey;
-     border: black dotted 1px;
+     border: black solid 1px;
      align-content: center;
+     width: 100%;
  }
 
  #contact{
@@ -201,18 +213,25 @@ h3{
     margin: .5em;
 
 }
+
+.contactinfo{
+    text-align: center;
+}
 #mapdiv.hide{
     display:none;
 }
 
 #banner{
-    display:block;
+    display:none;
     width: 100%;
     padding: 12px;
     background-color: yellow;
     color:black;
     text-align:center;
     
+}
+.hide{
+    display:none;
 }
  .footer{
     padding: 20px;
