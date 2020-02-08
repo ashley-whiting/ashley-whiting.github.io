@@ -1,9 +1,15 @@
-
+@media only screen and (max-width: 400px) {
+    body {font-size: 90%;}
+}
 body{
     font-family: 'Overpass', sans-serif;
+    font-weight: normal;
     }
     
-    
+header, nav, main, footer {
+   
+    margin: 0 auto;
+}
     .top-header{
         padding: 45px;
         background-color: #00B0DA;
@@ -37,7 +43,10 @@ body{
     }
     
     
-    
+    .active{
+        background-color: rgba(0,0,0,0.2);
+        color: white;
+    }
     nav a {
         color: black;
         padding: 1em .6em;
@@ -50,11 +59,18 @@ body{
     }
     
     nav ul{
-        display: flex;
+        display: block;
         margin: 0;
         color: black;
         padding: .5em 1em;
         list-style: none;
+        overflow: hidden;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+
     }
     
     .yours{
@@ -63,6 +79,7 @@ body{
     h1, h2, h3, h4, h5, h6{
         
         font-family: 'Raleway', sans-serif;
+        font-weight: normal;
     }
         
     
