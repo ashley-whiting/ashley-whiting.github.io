@@ -16,7 +16,7 @@ body{
         
         position: relative;
         background-color: #00B0DA;
-        border: #00b0da 1px solid;
+        border: none;
         border-radius: 4px;
         width: 400px;
         margin-top: -30px;
@@ -24,7 +24,7 @@ body{
     }
     .weather{
         text-align: center;
-        text-size-adjust: 20px;
+        
     }
     
     nav {
@@ -53,7 +53,7 @@ body{
         display: flex;
         margin: 0;
         color: black;
-        padding: .5em 8 em;
+        padding: .5em 1em;
         list-style: none;
     }
     
