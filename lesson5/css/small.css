@@ -118,9 +118,7 @@ nav ul.hide{
  
 
  .weathersummary{
-     position: absolute;
-     top: 35rem;
-     left: 10rem;
+     
      background: radial-gradient(grey, lightgrey);
      border: transparent;
      padding: .5rem;

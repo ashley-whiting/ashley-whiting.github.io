@@ -6,6 +6,19 @@
         margin: .5em;
     
     }  
+    .weathersummary{
+        position: absolute;
+        top: 35rem;
+        left: 10rem;
+        background: radial-gradient(grey, lightgrey);
+        border: transparent;
+        padding: .5rem;
+        box-shadow: 0 0 20px #777;
+        opacity: .5;
+        
+        
+    }
+   
    
 } /*end medium */
 
