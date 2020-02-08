@@ -8,12 +8,7 @@ background: -webkit-linear-gradient(top,  #dbdbdb 0%,#aaaaaa 100%); /* Chrome10-
 background: linear-gradient(to bottom,  #dbdbdb 0%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
 
-        
-nav ul {
-    display: flex;}
 
-    nav ul li {flex: .5 .5 80%}
-}
     }
 
     
