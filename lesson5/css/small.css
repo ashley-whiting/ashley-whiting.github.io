@@ -107,12 +107,14 @@ nav ul.hide{
 
  .hero{
     margin: 10px auto;
-    
     justify-content: center;
     width: 100%;
 
  }
 
+ .heropic{
+     width: 100%
+ }
  
 
  .weathersummary{
@@ -174,10 +176,11 @@ h3{
 
  #img1{
      box-shadow: 6px 6px 6px black;
-     height: 300px;
-     width: auto;
+     
+     width: 100%;
  }
  .box1{
+     margin:10px auto;
     padding: 10px;
     border: black solid 1px;
     align-content: center;
