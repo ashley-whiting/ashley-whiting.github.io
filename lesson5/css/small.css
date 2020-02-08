@@ -107,7 +107,7 @@ nav ul.hide{
 
  .hero{
     margin: 10px auto;
-    position: relative;
+    
     justify-content: center;
     width: 100%;
 
@@ -117,7 +117,7 @@ nav ul.hide{
 
  .weathersummary{
      position: absolute;
-     top: 5rem;
+     top: 35rem;
      left: 10rem;
      background: radial-gradient(grey, lightgrey);
      border: transparent;
