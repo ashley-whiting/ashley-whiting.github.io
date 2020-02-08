@@ -49,7 +49,7 @@ header, nav, main, footer {
     }
     nav a {
         color: black;
-        padding: 1em .6em;
+        padding: .5em .6em;
         
     }
     
@@ -62,7 +62,7 @@ header, nav, main, footer {
         display: block;
         margin: 0;
         color: black;
-        padding: .5em 1em;
+        padding: .5em .5em;
         list-style: none;
         overflow: hidden;
     }
