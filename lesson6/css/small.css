@@ -14,11 +14,11 @@ body{
         margin: 0;
     }
 
-    main figure.heropic img{
+    main picture.heropic img{
      width: 100%;
  }
 
-    main figure.heropic{
+    main picture.heropic{
         width: 90%;
         margin: 0 0 0 0;
     }

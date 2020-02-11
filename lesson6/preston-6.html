@@ -49,12 +49,13 @@
             <h2>Preston Idaho</h2></div>
             <div class="box1">
                 <div class="hero">
-                    <figure class="heropic">
-                        <img src="images/preston-hero1200.jpg" alt="hero-preston" sizes=100vw
-                            srcset="images/preston-hero400.jpg 400w,
-                                    images/preston-hero600.jpg 600w,
-                                    images/preston-hero1200.jpg 1200w">
-                     </figure>
+                    <picture class="heropic">
+                        <source media="(max-width:400px)" srcset="images/preston-hero400.jpg">
+                        <source media="(max-width:600px)" srcset="images/preston-hero600.jpg">
+                        <source media="(max-width:1200px)" srcset="images/preston-hero1200.jpg">
+                        <img src="images/preston-hero1200.jpg" alt="hero-preston" sizes=100vw>
+                          
+                     </picture>
                <!--this is my overlay -->
                <section class="weathersummary">
                    <h3>Weather Summary</h3>
