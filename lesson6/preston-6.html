@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Weather | Ashley Whiting | BYUI CIT 230</title>
+    <meta name="description" content="CIT 230 Portal Course Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
+   </head>
+   <body>
+       <div id="banner">
+        <p>Pancakes in the Park! Rain or Shine <br> Preston City Park 9:00am Saturday</p>
+          
+       </div>
+       <header>
+      
+   <div class="top-header"> 
+    <img id="logo" src="images/weather-logo.jpg" alt="My Weather logo"> 
+       
+      </div>
+      <div class="yours">
+        <h1>YOUR Weather When YOU Need It</h1>
+        </div>
+      </header>
+      
+       
+   <nav class="clearfix">
+       <button onclick="toggleMenu()">&#9776; Menu</button>
+       <ul id="primaryNav" class="hide">
+        <li><a href="" target="_blank">Home</a></li>
+           <li class="active"><a href="#" target="_blank">Preston</a></li>
+           <li><a href="" target="_blank">Soda Springs</a></li>
+           <li><a href="" target="_blank">Fish Haven</a></li>
+           <li><a href="" target="_blank">Storm Center</a></li>
+           <li><a href="" target="_blank">Gallery</a></li>
+           
+       </ul>
+   </nav>
+
+       <main>
+      <div class="preston">
+            <h2>Preston Idaho</h2></div>
+            <div class="box1">
+          <div class="hero">
+               <img class="heropic" src="images/hero-image.jpg" alt="hero-preston">
+               <!--this is my overlay -->
+               <section class="weathersummary">
+                   <h3>Weather Summary</h3>
+                   <p><b>Currently:</b> Sunny</p>
+                   <p><b>High:</b> 73°F</p>
+                   <p><b>Wind Chill:</b> °F</p>
+                   <p><b>Humidty:</b>60%</p>
+                   <p><b>Wind Speed:</b>5 mph</p>
+               </section>
+               
+              </div>
+              </div>
+               <br> 
+               <div id="forecastdiv" class="hide"> 
+               <div class="box2">
+                 
+              <h3>5 Day Forecast</h3>
+             <br>
+             <div class="forecast">  
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thur</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="images/partly-sunny.png" alt="partly-sunny">
+                                <br> 
+                                <p>Party Sunny</p>
+                            </td>
+                            <br>
+                            <td>
+                                <img src="images/partly-sunny.png" alt="partly-sunny">
+                                <br>
+                                <p>Partly Sunny</p>
+                            </td>
+                            
+                            <td>
+                                <img src="images/cloudy.png" alt="cloudy">
+                                <br>
+                                <p>Cloudy</p>                  
+                            </td>
+                            
+                            <td>
+                                <img src="images/sunny.png" alt="sunny">
+                                <br>
+                                <p>Sunny</p>
+                            </td>
+                            <td>
+                                <img src="images/sunny.png" alt="sunny">
+                                <br>
+                                <p>Sunny</p>
+
+                            </td>
+
+                            
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            
+            
+            </div>
+            </div>
+            </div>
+               <br>
+              
+           <div class="box3">
+         
+               <section id="article"> 
+                <div class="articlebody"> 
+                  <h2>Windy snowstorm expected to make roads dangerous</h2>
+                  <p>
+                    The Idaho Transportation Department (ITD) and the National Weather Service (NWS) are advising the traveling public to use caution while in transit due to an extended severe winter weather advisory beginning this evening Wed., Feb. 5. </p>
+
+                    <p>Drivers can expect high winds, blowing and drifting snow, low visibilty and heavy snow in higher elevations. Up to five inches of snow in the valley and nine inches in the mountains is expected over the next 24 hours, in Franklin County, the eastern part of Oneida County and north throughout the Snake River Plain.</p>
+                    
+                    <p>ITD advises drivers to expect intermittent road closures as forecasted increases of wind speed and precipitation may require a halt in snow-clearing operations if conditions become too dangerous for plows to operate.</p>
+                    
+                    <p>"We are expecting some substantial winds and snowfall," says ITD District 6 Operations Manager Wade Allen. "Starting tomorrow, our crews will be working around the clock to keep roads open, but they expect to close roads as weather proceeds and it is deemed unsafe for them to plow."</p>
+                    
+                   <p>ITD District 5 Operations Manager Greydon Wright also noted, "We urge all travelers to plan your drive ahead of time in case roads are icy or closed. Check 511 and please drive safe!"</p>
+                    
+                    <p>The Idaho State Police and ITD are encouraging motorists to use caution if they must travel. 9-1-1 may be called for assistance in case of emergency.
+                    
+                    Road conditions and closures will be posted on Idaho's traveler advisory service at 511.idaho.gov or call 5-1-1.   </p>
+              </div>
+            
+                <div class="articlepic">
+                    
+                 <img id="img1" src="images/prestonarticle.jpg" alt="Winter Storm">
+                
+              </div>
+            </div>
+            </section>
+                        <br>
+            
+          
+            <div class="box4">
+                <section id="contact">
+                    <div id="mapdiv" class="hide">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15314.96486174755!2d-111.89549682844586!3d42.10006063397898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581091088088!5m2!1sen!2sus" width="600" height="400"  frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                    
+                <div class="contactinfo">
+                    <h4>Contact Information</h4>
+                    <p>1-800-myweather</p>
+                    <p>info@myweather.info</p>
+                    <p>My Weather</p>
+                    <p>1000 Weather Road</p>
+                    <p>Preston, ID 83261</p>
+                
+                </div>
+            </section>
+            </div>
+            
+            </main>
+            <br>
+            <br>
+            <div class="footer"><footer>
+                Ashley Whiting | My Weather | www.myweathertoday.info | BYUI CIT 230 
+                <br> Last Updated On: <span id="lastmodified"></span><script src="java/lastupdate.js"></script>
+            </footer>
+            </div>
+       
+      
+    <script src="js/togglemenu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/lastupdate.js"></script>
+    </body>
+    </html>
