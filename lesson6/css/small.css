@@ -20,7 +20,7 @@ body{
 
     main figure.heropic{
         width: 90%;
-        border: 1px black solid;
+        margin: 0 0 0 0;
     }
     #logo{
         
