@@ -174,11 +174,17 @@ h3{
      justify-content: center;
  }
 
- .articlebody, .articleimg{
+ .articleimg,{
      width: 50%;
      flex: 1 0 15em;
      margin: .5em;
 
+ }
+
+ .articlebody{
+     width: 50%;
+     margin: .5em;
+     flex: 1 0 15em;
  }
 
  #img1{
