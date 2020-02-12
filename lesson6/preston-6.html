@@ -14,7 +14,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
    </head>
-   <body>
+   <body onload="doInputOutput()">
        <div id="banner">
         <p>Pancakes in the Park! Rain or Shine <br> Preston City Park 9:00am Saturday</p>
           
@@ -61,9 +61,9 @@
                    <h3>Weather Summary</h3>
                    <p><b>Currently:</b> Sunny</p>
                    <p><b>High:</b> 73°F</p>
-                   <p><b>Wind Chill:</b> °F</p>
-                   <p><b>Humidty:</b>60%</p>
-                   <p><b>Wind Speed:</b>5 mph</p>
+                   <div id="outputDiv"><p><b>Wind Chill:</b> °F</p></div>
+                   <p><b>Humidty:</b> 60%</p>
+                   <p><b>Wind Speed:</b> 5 mph</p>
                </section>
                
               </div>
