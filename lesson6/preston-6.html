@@ -22,7 +22,13 @@
        <header>
       
    <div class="top-header"> 
-    <img id="logo" src="images/weather-logo.jpg" alt="My Weather logo"> 
+       <picture class="mylogo">
+        <source media="(max-width:250px)" srcset="images/logo-250.jpg">
+            <source media="(max-width:500px)" srcset="images/logo-500.jpg">
+            <source media="(max-width:850px)" srcset="images/logo-850.jpg">
+             <img src="images/weather-logo.jpg" alt="My Weather logo"> 
+       </picture>
+   
        
       </div>
       <div class="yours">
