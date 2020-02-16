@@ -32,17 +32,5 @@ nav ul li a{
     border: none;
     border-right: 1px solid rgba(0,0,0,0.3);
     padding: .6rem 1rem;}
-    .footer{
-        padding: 20px;
-        background-color: #00B0DA;
-        color:white;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      
-        
-    }
-
+    
 } /*end large */
