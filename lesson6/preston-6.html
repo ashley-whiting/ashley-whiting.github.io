@@ -14,7 +14,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
    </head>
-   <body onload="doInputOutput()">
+   <body>
        <div id="banner">
         <p>Pancakes in the Park! Rain or Shine <br> Preston City Park 9:00am Saturday</p>
           
@@ -53,17 +53,17 @@
                         <source media="(max-width:400px)" srcset="images/preston-hero400.jpg">
                         <source media="(max-width:600px)" srcset="images/preston-hero600.jpg">
                         <source media="(max-width:1200px)" srcset="images/preston-hero1200.jpg">
-                        <img src="images/preston-hero1200.jpg" alt="hero-preston" sizes=100vw>
+                        <img src="images/preston-hero1200.jpg" alt="hero-preston">
                           
                      </picture>
                <!--this is my overlay -->
                <section class="weathersummary">
                    <h3>Weather Summary</h3>
                    <p><b>Currently:</b> Sunny</p>
-                   <p><b>High:</b> 73°F</p>
-                   <div id="outputDiv"><p><b>Wind Chill:</b> °F</p></div>
+                   <p><b>High:</b> <span id="temp">30°F</span></p>
                    <p><b>Humidty:</b> 60%</p>
-                   <p><b>Wind Speed:</b> 5 mph</p>
+                   <p><b>Wind Speed:</b><span id="wind">6</span> mph</p>
+                   <p><b>Wind Chill:</b><span id="windchill"></span> °F</p>
                </section>
                
               </div>
@@ -92,7 +92,7 @@
                                 <br> 
                                 <p>Party Sunny</p>
                             </td>
-                            <br>
+                            
                             <td>
                                 <img src="images/partly-sunny.png" alt="partly-sunny">
                                 <br>
@@ -150,12 +150,13 @@
                     Road conditions and closures will be posted on Idaho's traveler advisory service at 511.idaho.gov or call 5-1-1.   </p>
               </div>
             
+            
                 <div class="articlepic">
                     
                  <img id="img1" src="images/prestonarticle.jpg" alt="Winter Storm">
                 
               </div>
-            </div>
+            
             </section>
                         <br>
             
