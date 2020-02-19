@@ -14,8 +14,7 @@ main{
 }
     
     #logo{
-        
-        position: relative;
+        float: left;
         background-color: #00B0DA;
         border: #00b0da 1px solid;
         border-radius: 4px;
@@ -25,22 +24,21 @@ main{
     }
     .yours{
         text-align:center;
-        margin-top: -55px;
+        margin-top: -175px;
         font-size: .8em;
+        width: 100%;
         
      }
     .top-header{
+        display: flex;
+        flex-flow: row;
         padding: 45px;
         background-color: #00B0DA;
         color:white;
         margin: 0;
         
     }
-.top-header{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
+
 
 
 nav button {
@@ -124,6 +122,9 @@ nav ul.hide{
      align-content: center;
  }
 
+ #lastmodified{
+    color:gold;
+}
  .footer{
      padding: 20px;
      margin: 15px;
