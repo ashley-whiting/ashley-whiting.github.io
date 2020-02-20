@@ -28,6 +28,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
+        justify-content: center;
+        align-content: center;
     }
     nav button{
         display:none;

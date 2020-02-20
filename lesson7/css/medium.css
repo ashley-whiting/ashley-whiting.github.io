@@ -14,9 +14,11 @@
     }
     
     .grid-container{
-        display: inline-grid;
+        display: grid;
         grid-template-columns: auto auto;
         grid-gap: 30px;
+        justify-content: center;
+        align-content: center;
     }
    
    

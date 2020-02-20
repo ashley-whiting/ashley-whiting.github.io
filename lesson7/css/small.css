@@ -14,16 +14,20 @@ body{
         font-size: 0.8rem;
         margin: 0 auto;
         
+        
     }
     
     .title{
         text-align: center;
     }
     .grid-container{
-        display: inline-grid;
+        display: grid;
         grid-template-columns: auto;
         grid-gap: 30px;
         padding: 10px;
+        justify-content: center;
+        align-content: center;
+        
     }
     picture img[data-src]{
         filter: blur(0.2em);
