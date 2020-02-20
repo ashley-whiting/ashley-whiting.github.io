@@ -1,16 +1,26 @@
+
 main{
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 
+picture img[data-src]{
+    filter: blur(0.2em);
+}
 
 
-
-img {
-    border: 1px solid #0000;
-    padding: 2px;
+picture img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+
+.img{
+    border: solid #0000 2px;
+    
+}
+
+
