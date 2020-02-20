@@ -16,6 +16,9 @@ body{
         
     }
     
+    .title{
+        text-align: center;
+    }
     .grid-container{
         display: inline-grid;
         grid-template-columns: auto;

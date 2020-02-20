@@ -19,8 +19,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
         margin: 0 auto;
        
     }
-    
-     
+        
+    .title{
+        text-align: center;
+    }
+
     .grid-container{
         display: grid;
         grid-template-columns: auto auto auto;
