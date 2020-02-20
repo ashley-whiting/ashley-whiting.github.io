@@ -12,7 +12,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
         
 
     }
-
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 0.8rem;
+        margin: 0 auto;
+       
+    }
     
     nav button{
         display:none;
@@ -33,45 +39,7 @@ nav ul li a{
     border-right: 1px solid rgba(0,0,0,0.3);
     padding: .6rem 1rem;}
 
-    .hero{
-        margin: 10px auto;
-        position: relative;
-        justify-content: center;
-        width: 100%
-    
-     }
-    
-     
-    
-     .weathersummary{
-         position: absolute;
-         top: 5rem;
-         left: 10rem;
-         background: radial-gradient(grey, lightgrey);
-         border: transparent;
-         padding: .5rem;
-         box-shadow: 0 0 20px #777;
-         opacity: .5;
-         
-     }
-    #forecastdiv.hide{
-        display:flex;
-        align-items: center;
-    }
-    .forecast{
-        display: flex;
-        justify-content: center;
-          
-      }
-    .map, .contactinfo{
-        width: 50%;
-        flex: 1 0 15em;
-        margin: .5em;
-    
-    }
-  #mapdiv.hide{
-      display: flex;
-  }
+   
     .footer{
         padding: 20px;
         margin: 15px;

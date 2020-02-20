@@ -9,9 +9,27 @@ body{
     }
  
     main{
-        padding:40px;
-        display: block;
-        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+        margin: 0 auto;
+        
+    }
+    
+    
+    picture img[data-src]{
+        filter: blur(0.2em);
+    }
+    
+    
+    picture img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    
+    .img{
+        border: solid black 2px;
+    
     }
 
  
