@@ -1,0 +1,16 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+img {
+    border: 1px solid #0000;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 0.5s;
