@@ -9,7 +9,12 @@
         
     }
     
-   
+    
+    .grid-container{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
    
    
 } /*end medium */

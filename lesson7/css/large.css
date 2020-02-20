@@ -20,6 +20,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
        
     }
     
+     
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+    }
     nav button{
         display:none;
     }

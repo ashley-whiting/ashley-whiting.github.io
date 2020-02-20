@@ -16,7 +16,12 @@ body{
         
     }
     
-    
+    .grid-container{
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+        padding: 10px;
+    }
     picture img[data-src]{
         filter: blur(0.2em);
     }
@@ -29,6 +34,8 @@ body{
     
     .img{
         border: solid black 2px;
+        width: 500px;
+        height: 300px;
     
     }
 

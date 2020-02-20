@@ -20,6 +20,8 @@ picture img {
 
 .img{
     border: solid black 2px;
+    width: 400px;
+    height: 300px;
 
 }
 
