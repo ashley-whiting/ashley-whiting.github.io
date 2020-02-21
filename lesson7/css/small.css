@@ -10,11 +10,10 @@ body{
  
     main{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         font-size: 0.8rem;
+        margin: 0 auto;
        
-        
-        
     }
     
     .title{
@@ -27,6 +26,8 @@ body{
         padding: 10px;
         justify-content: center;
         align-content: center;
+        margin: 10px auto;
+        width: 100%;
         
     }
     figcaption{

@@ -1,13 +1,7 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
     
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        font-size: 0.8rem;
-        margin: 0 auto;
-        
-    }
+  
     
     h1{
         text-align: center;
@@ -22,6 +16,8 @@
         grid-gap: 30px;
         justify-content: center;
         align-content: center;
+        margin: 10px auto;
+        width: 100%;
       
     }
    

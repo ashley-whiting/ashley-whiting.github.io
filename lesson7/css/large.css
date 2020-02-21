@@ -12,14 +12,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
         
 
     }
+   
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 0.8rem;
         margin: 0 auto;
+        width: 100%;
        
-    }
-        
+    }   
     .title{
         text-align: center;
     }
@@ -30,6 +31,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
         grid-gap: 30px;
         justify-content: center;
         align-content: center;
+        margin: 10px auto;
+        width: 100%;
     }
     nav button{
         display:none;
