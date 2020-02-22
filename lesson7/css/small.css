@@ -1,3 +1,5 @@
+
+@media only screen and (min-width: 20rem) {
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -22,16 +24,20 @@ body{
         width: 100%;
         
     }
+
+    picture {
+        display: inline-block;
+        background-color: lightblue;
+        margin: 5px;
+       
+    }
     figcaption{
-        font-size: medium;
+        font-size: large;
         text-align: center;
         padding: 5px;
-    }
-    .grid-item{
-        display: inline;
-        background-color: lightblue;
-        
-    }
+        display: block;
+            }
+   
     picture img[data-src]{
         filter: blur(0.2em);
     }
@@ -40,6 +46,7 @@ body{
     picture img {
         filter: blur(0em);
         transition: filter 0.5s;
+        
     }
     
     .img{
@@ -48,12 +55,7 @@ body{
         height: 300px;
     
     }
-    #caption{
-        background-color: lightblue;
-        
-        
-     
-    }
+   
  
     #logo{
         
@@ -180,3 +182,4 @@ h1{
     display: table;
     clear: both;
   }
+}
