@@ -1,6 +1,6 @@
 
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 1300px) {
     nav{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
 background: #dbdbdb; /* Old browsers */
@@ -13,17 +13,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
 
     }
    
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        font-size: 0.8rem;
-        margin: 0 auto;
-        width: 100%;
-       
-    }   
-    .title{
-        text-align: center;
-    }
+  
+    
 
     .grid-container{
         display: grid;
@@ -62,14 +53,7 @@ nav ul li a{
         text-decoration: bold;
     }
 
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 30px;
-        justify-content: center;
-        align-content: center;
-        
-    }
+   
    
     .footer{
         padding: 20px;
