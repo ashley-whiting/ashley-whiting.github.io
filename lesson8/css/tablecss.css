@@ -29,11 +29,11 @@ thead tr:first-child th{
     font-size: 1.6em;
     font-weight: bold;
 }
-table#t01 tr:nth-child(even){
+table#t01 tr:nth-child(odd){
     background-color: #e7f0ed;
 
 }
-table#t01 tr:nth-child(odd){
+table#t01 tr:nth-child(even){
     background-color: #e7ffed;
 }
 
