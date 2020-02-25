@@ -31,14 +31,17 @@ thead tr:first-child th{
     font-size: 1.6em;
     font-weight: bold;
 }
-table#t01 tr:nth-child(odd){
+table tr:nth-child(odd){
     background-color: #e7f0ed;
 
 }
-table#t01 tr:nth-child(even){
+table tr:nth-child(even){
     background-color: #e7ffed;
 }
-
+#cell{
+    background-color: #628cab;
+    color: white;
+}
 tfoot td{
     background-color: #7fb9c2;
     font-size: 0.8em;
