@@ -9,6 +9,7 @@ table, th, td{
 
 table{
     border-spacing: 5px;
+    box-shadow: 5px 5px 8px #628cab;
 }
 th, td{
     padding: 10px;
@@ -40,6 +41,6 @@ table#t01 tr:nth-child(even){
 
 tfoot td{
     background-color: #7fb9c2;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: center;
 }
