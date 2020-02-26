@@ -38,6 +38,10 @@ table tr:nth-child(odd){
 table tr:nth-child(even){
     background-color: #e7ffed;
 }
+
+tbody tr:nth-child(5) td{
+    font-style: italic;
+}
 #cell{
     background-color: #628cab;
     color: white;
