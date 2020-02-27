@@ -48,7 +48,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Your Information</legend>
-                <label class="top">Name* <input type="text" size="10" name="fname" required></label>
+                <label class="top">Name* <input type="text" name="name" pattern ="[A-Za-z]{5,}" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
                 <label class="top">Zip Code* <input type="number" name="zip" required></label>
@@ -100,9 +100,9 @@
                 </label>
                 <Br>
                 <div>User In-Danger Level:</div>
-                <label class="sbs"><input type="radio" name="level" value="yes">Yes</label>
-                <label  class="sbs"><input type="radio" name="level" value="maybe">Maybe</label>
-                <label  class="sbs"><input type="radio" name="level" value="no">No</label>
+                <label class="sbs"><input type="radio" name="level" value="yes">   Yes</label>
+                <label  class="sbs"><input type="radio" name="level" value="maybe"> Maybe</label>
+                <label  class="sbs"><input type="radio" name="level" value="no"> No</label>
             
 
                 <label class="top">Addition Information or Comments <br>
