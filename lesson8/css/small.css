@@ -10,40 +10,39 @@
         font-family: 'Overpass', sans-serif;
         }
      
-       
-        
-        
-       
-     
-        #logo{
-            
-            position: relative;
-            background-color: #00B0DA;
-            border: #00b0da 1px solid;
-            border-radius: 4px;
-            width: 400px;
-            margin-top: -30px;
-        
-        }
-        .yours{
-            text-align:center;
-            margin-top: -55px;
-            font-size: .8em;
-            
-         }
-        .top-header{
-            padding: 45px;
-            background-color: #00B0DA;
-            color:white;
-            margin: 0;
-            
-        }
-    .top-header{
-        display: flex;
-        align-content: center;
-        justify-content: center;
+    header {
+        display:flex;
+        flex-flow: row;
+        width: 100%
     }
+    header, footer{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #00B0DA;
+        color: black;
+    }   
+      
+     header, #top-header{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 15px;
+       
+    }
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 200px;
+        
+       
     
+    }
+  
+
+
     
     nav button {
         margin-left: 7em;
