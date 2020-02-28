@@ -106,7 +106,7 @@
     
     h1{
         text-align: center;
-        text-decoration: bold;
+        font-weight: bold;
     }
     
     
@@ -134,7 +134,7 @@
         -webkit-appearance: none;
         display: block;
         font-size: 1rem;
-        border: solid 1 px #999;
+        border: solid 1px #999;
         border-radius: 4px;
         padding: .75rem;
         color: #555;
