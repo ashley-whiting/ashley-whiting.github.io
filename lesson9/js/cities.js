@@ -29,7 +29,7 @@ motto.textContent = towns[i].motto;
 yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
 population.textContent = "Current Population: " + towns[i].currentPopulation;
 rainfall.textContent = "Average Rainfall: " + towns[i].averageRainfall;
-image.setAttribute('src', "images/" + towns[i] + ".jpg");
+image.setAttribute('src', "images/" + towns[i].photo);
 image.setAttribute('alt',towns[i].name);
 
 

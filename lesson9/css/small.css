@@ -109,8 +109,13 @@
         font-weight: bold;
     }
     
+    h2 {
+        text-align:center;
+
+    }
     h3 {
         font-style: italic;
+        text-align: center;
     }
     
     img {
