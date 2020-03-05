@@ -29,7 +29,7 @@ motto.textContent = towns[i].motto;
 yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
 population.textContent = "Current Population: " + towns[i].currentPopulation;
 rainfall.textContent = "Average Rainfall: " + towns[i].averageRainfall;
-image.setAttribute('src', towns[i].photo);
+image.setAttribute('src', "images/fishhaven.jpg");
 image.setAttribute('alt',towns[i].name);
 
 
