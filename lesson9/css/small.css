@@ -57,7 +57,7 @@
         background-color: #d5d5d7;
         font-size: 1.5em;
         line-height: 3em;
-        margin-top: 65px;
+        margin-top: -10px;
         font-family: 'Overpass', sans-serif;
     
     }
@@ -186,6 +186,32 @@
         margin: .5em;
    
     }
+    .box4{
+        background-color: lightgrey;
+        border: black solid 1px;
+        align-content: center;
+        width: 100%;
+    }
+   
+    #contact{
+       display: flex;
+       flex-flow: row wrap;
+       align-items: center;
+       justify-content: center;
+   }
+   .map, .contactinfo{
+       width: 50%;
+       flex: 1 0 15em;
+       margin: .5em;
+   
+   }
+   
+   .contactinfo{
+       text-align: center;
+   }
+   #mapdiv.hide{
+       display:none;
+   }
    
    
     #img1{

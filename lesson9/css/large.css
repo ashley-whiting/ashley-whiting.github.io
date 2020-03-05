@@ -60,7 +60,15 @@ nav ul li a{
             grid-template-columns: 1fr 1fr 1fr;
         }
     
-    
+        .map, .contactinfo{
+            width: 50%;
+            flex: 1 0 15em;
+            margin: .5em;
+        
+        }
+      #mapdiv.hide{
+          display: flex;
+      }
    
     .footer{
         padding: 20px;
