@@ -55,7 +55,8 @@ nav ul li a{
         border-radius: 3px;
         width: 600px;
     }
-        
+       
+    
   div.cards{
             grid-template-columns: 1fr 1fr 1fr;
         }
