@@ -167,7 +167,31 @@
         padding: 5px;
     }
     
+    .box3{
+        background-color: lightgrey;
+        border: black solid 1px;
+        align-content: center;
+    }
+
+    #article{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .articlebody, .articlepic{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
+   
+    }
+   
+    #img1{
+        box-shadow: 6px 6px 6px black;
         
+        width: 100%;
+    } 
     
     .hide{
         display:none;
