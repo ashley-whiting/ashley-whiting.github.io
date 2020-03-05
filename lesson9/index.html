@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Weather | Ashley Whiting | BYUI CIT 230</title>
+    <meta name="description" content="CIT 230 Weather Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
+   </head>
+   
+   <body>
+       
+       <header>
+        <img id="logo" src="images/weather-logo.jpg" alt="My Weather logo"> 
+        <div id="top-header"> 
+            <h1 id="title"> My Weather</h1>
+            <h2 id="motto">YOUR Weather When YOU Need It</h2>
+    
+        </div>
+    
+            
+      </header>
+      
+       
+   <nav class="clearfix">
+       <button onclick="toggleMenu()">&#9776; Menu</button>
+       <ul id="primaryNav" class="hide">
+        <li><a href="" target="_blank">Home</a></li>
+           <li><a href="#" target="_blank">Preston</a></li>
+           <li><a href="" target="_blank">Soda Springs</a></li>
+           <li><a href="" target="_blank">Fish Haven</a></li>
+           <li class="active"><a href="" target="_blank">Storm Center</a></li>
+           <li><a href="" target="_blank">Gallery</a></li>
+           
+       </ul>
+   </nav>
+
+<br>
+
+       <main>
+        <h2>Welcome to Your Weather</h2>
+        
+        <div class="cards"></div>
+      </main>
+            <div class="footer"><footer>
+                Ashley Whiting | My Weather | www.myweathertoday.info | BYUI CIT 230 
+                <br> 
+                <br>
+                Last Updated On: <span id="lastmodified"></span><script src="java/lastupdate.js"></script>
+            </footer>
+            </div>
+       
+      
+    <script src="js/togglemenu.js"></script>
+    <script src="js/lastupdate.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/cities.js"></script>
+
+  
+
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  
+    </body>
+    </html>

@@ -1,0 +1,24 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 50rem) {
+    
+  
+    
+    h1{
+        text-align: center;
+        text-decoration: bold;
+    }
+
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 400px;
+        
+       
+    
+    }
+    
+    
+   
+} /*end medium */
+
