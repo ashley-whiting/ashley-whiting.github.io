@@ -46,6 +46,9 @@ div.cards section{
     padding: 5px;
 }
 
+footer{
+    text-align: center;
+}
 
 @media only screen and (min-width: 50em) {
     div.cards{
