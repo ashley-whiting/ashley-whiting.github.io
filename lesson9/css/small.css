@@ -126,7 +126,25 @@
         box-shadow: 0px 0px 20px black;
     }
     
-    div.cards{
+    .box1{
+        margin:10px auto;
+       padding: 10px;
+       border: black solid 1px;
+       align-content: center;
+   }
+    
+   .hero{
+        margin: 10px auto;
+        justify-content: center;
+        width: 100%;
+    
+     }
+    
+     .heropic{
+         width: 100%
+     }
+    
+     div.cards{
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;
