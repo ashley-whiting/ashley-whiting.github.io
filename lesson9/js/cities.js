@@ -11,9 +11,9 @@ fetch(requestURL)
     
     
     for (let i = 0; i < 6; i++ ) {
-        if (i ==0 || i ==3 || i ==6 || i ==2) {
-            continue
-        }
+        if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
+            
+        
         
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -46,4 +46,5 @@ card.appendChild(rainfall);
 card.appendChild(image);
 
 document.querySelector('div.cards').appendChild(card);}
+    }
   });

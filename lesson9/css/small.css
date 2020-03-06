@@ -147,7 +147,7 @@
      }
     
      div.cards{
-        margin: 0 auto;
+        
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;

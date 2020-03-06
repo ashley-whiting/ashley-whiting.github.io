@@ -19,7 +19,21 @@
     }
     
     div.cards{
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    div.cards section{
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    div.cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+      
     }
    
 } /*end medium */
