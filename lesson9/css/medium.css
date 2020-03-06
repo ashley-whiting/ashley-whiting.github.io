@@ -15,16 +15,7 @@
         width: 400px;
     }
         
-     h2 {
-          text-align: left; 
-    
-        }
-        h3 {
-            font-style: bold;
-            
-        }
-    
-    }
+ 
     
     div.cards{
         display: flex;

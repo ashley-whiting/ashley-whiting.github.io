@@ -170,11 +170,16 @@
     }
     
     .box3{
-        background-color: lightgrey;
+       
         border: black solid 1px;
         align-content: center;
     }
-
+   
+    .forecasttitle{
+    font-weight: bold;
+    font-size: large;
+    }
+    
     #article{
         display: flex;
         flex-flow: row wrap;
