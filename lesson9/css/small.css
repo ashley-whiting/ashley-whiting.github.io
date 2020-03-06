@@ -109,13 +109,17 @@
         font-weight: bold;
     }
     
-    h2 {
-        text-align:center;
-
+    h2{
+        text-align: center;
+       
     }
+   
     h3 {
         font-style: italic;
         text-align: center;
+        
+
+        
     }
     
     img {
@@ -179,7 +183,7 @@
     font-weight: bold;
     font-size: large;
     }
-    
+
     #article{
         display: flex;
         flex-flow: row wrap;

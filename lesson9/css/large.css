@@ -49,6 +49,9 @@ nav ul li a{
         text-decoration: bold;
     }
 
+    h2{
+        text-align: center;
+    }
     #logo{
         float: left;
         border: black 1px solid;
