@@ -16,12 +16,12 @@
     }
         
      h2 {
-           
+          text-align: left; 
     
         }
         h3 {
             font-style: bold;
-            text-align: center;
+            
         }
     
     }
