@@ -147,10 +147,10 @@
      }
     
      div.cards{
-        
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
+        justify-items: center;
         justify-content: center;
         align-content: center;
         margin: 10px auto;
@@ -166,6 +166,7 @@
         background-color: lightskyblue;
         box-shadow: 6px 6px 12px  darkgrey;
         padding: 5px;
+        
     }
     
     .box3{
@@ -210,9 +211,7 @@
    .contactinfo{
        text-align: center;
    }
-   #mapdiv.hide{
-       display:none;
-   }
+  
    
    
     #img1{
@@ -231,11 +230,13 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: large;
       
         
     }
     #lastmodified{
-        color:gold;
+        text-decoration: underline;
+        color: gold;
     }
     
     
