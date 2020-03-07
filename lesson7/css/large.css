@@ -1,6 +1,6 @@
 
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 75rem) {
+@media only screen and (min-width: 60em) {
     nav{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
 background: #dbdbdb; /* Old browsers */

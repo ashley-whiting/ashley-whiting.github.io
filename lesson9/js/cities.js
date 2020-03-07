@@ -26,7 +26,7 @@ fetch(requestURL)
         let image = document.createElement('img');
         
 
-    info.className = "towno-info";
+    info.className = "town-info";
     pic.classname = "town-pic";
     name.textContent = towns[i].name;
     motto.textContent = towns[i].motto;
