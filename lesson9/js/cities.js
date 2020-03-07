@@ -26,7 +26,7 @@ fetch(requestURL)
         let image = document.createElement('img');
         
 
-    info.className = "town-info";
+    info.classname = "town-info";
     pic.classname = "town-pic";
     name.textContent = towns[i].name;
     motto.textContent = towns[i].motto;
@@ -42,12 +42,12 @@ fetch(requestURL)
 
 
 
-card.appendChild(name);
-card.appendChild(motto);
-card.appendChild(yearFounded);
-card.appendChild(population);
-card.appendChild(rainfall);
-card.appendChild(image);
+info.appendChild(name);
+info.appendChild(motto);
+info.appendChild(yearFounded);
+info.appendChild(population);
+info.appendChild(rainfall);
+pic.appendChild(image);
 card.appendChild(info);
 card.appendChild(pic);
 

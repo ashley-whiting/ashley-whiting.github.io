@@ -20,21 +20,19 @@
     div.cards{
         display: flex;
         flex-wrap: wrap;
+        
        
         
     }
-   .town-info{
-           
-
-      }
-    
+      
     div.cards section{
         margin: 1em;
+        padding: 1em;
         display: flex;
         flex-direction: row;
         align-items:center;
         align-content: center;
-        justify-content: center;
+        justify-items: center;
         justify-content: space-evenly;
         
        
