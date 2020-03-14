@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Weather | Ashley Whiting | BYUI CIT 230</title>
+    <meta name="description" content="CIT 230 Portal Course Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Overpass%7CRaleway&display=swap" rel="stylesheet">
+   </head>
+   
+   <body>
+       
+       <header>
+        <img id="logo" src="images/weather-logo.jpg" alt="My Weather logo"> 
+        <div id="top-header"> 
+            <h1 id="title"> My Weather</h1>
+            <h2 id="motto">YOUR Weather When YOU Need It</h2>
+    
+        </div>
+    
+            
+      </header>
+      
+       
+   <nav class="clearfix">
+       <button onclick="toggleMenu()">&#9776; Menu</button>
+       <ul id="primaryNav" class="hide">
+        <li><a href="" target="_blank">Home</a></li>
+           <li><a href="#" target="_blank">Preston</a></li>
+           <li><a href="" target="_blank">Soda Springs</a></li>
+           <li><a href="" target="_blank">Fish Haven</a></li>
+           <li class="active"><a href="" target="_blank">Storm Center</a></li>
+           <li><a href="" target="_blank">Gallery</a></li>
+           
+       </ul>
+   </nav>
+
+<br>
+
+       <main>
+        <h1>Storm Center Page</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                <label class="top">Storm Date<input type="date" name="stormDate"></label>
+            </fieldset>
+                
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Type:
+                    
+                   <input name="Storm Type" list="stormlist">
+                    <datalist id="stormlist">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                    </datalist>
+                
+                </label>
+
+                <br>
+                <br>
+                <label class="flexly">Storm Severity: &nbsp; &nbsp; &nbsp;
+                    <input type="range" id="rating" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                </label>
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                          </datalist>
+
+                
+
+              
+
+                <label  class="top"> Storm Region:
+                    <select name="stormRegion">
+                        <option value="">Select Region &#9662;</option>
+                    <option value="data">Preston</option>
+                    <option value="data">Soda Springs</option>
+                    <option value="data">Fish Haven</option>
+                    </select>
+                </label>
+                <Br>
+                <div>User In-Danger Level:</div>
+                <label class="sbs"><input type="radio" name="level" value="yes">   Yes</label>
+                <label  class="sbs"><input type="radio" name="level" value="maybe">  Maybe</label>
+                <label  class="sbs"><input type="radio" name="level" value="no">  No</label>
+            
+
+                <label class="top">Addition Information or Comments <br>
+                    <textarea name="message"></textarea></label>
+
+            </fieldset>
+            
+
+            <input type="submit" value="Share Storm" name ="submit" class="submitBtn">
+           
+       </form>
+       
+      </main>
+            <div class="footer"><footer>
+                Ashley Whiting | My Weather | www.myweathertoday.info | BYUI CIT 230 
+                <br> 
+                <br>
+                Last Updated On: <span id="lastmodified"></span><script src="java/lastupdate.js"></script>
+            </footer>
+            </div>
+       
+      
+    <script src="js/togglemenu.js"></script>
+    <script src="js/lastupdate.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/rating.js"></script>
+  
+
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  
+    </body>
+    </html>
