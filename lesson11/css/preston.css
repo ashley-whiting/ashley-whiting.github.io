@@ -1,0 +1,372 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    font-family: 'Overpass', sans-serif;
+    }
+ 
+    main{
+        padding:40px;
+        display: block;
+        margin: 0;
+    }
+    
+    #logo{
+        
+        position: relative;
+        background-color: #00B0DA;
+        border: #00b0da 1px solid;
+        border-radius: 4px;
+        width: 400px;
+        margin-top: -30px;
+    
+    }
+    .yours{
+        text-align:center;
+        margin-top: -55px;
+        font-size: .8em;
+        
+     }
+    .top-header{
+        padding: 45px;
+        background-color: #00B0DA;
+        color:white;
+        margin: 0;
+        
+    }
+.top-header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+nav button {
+    margin-left: 7em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    
+}
+
+nav {
+    background-color: #d5d5d7;
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-top: 65px;
+    font-family: 'Overpass', sans-serif;
+
+}
+nav a {
+    color: black;
+    padding: 1em .6em;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: underline;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+
+
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2); color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    text-decoration: underline;
+}
+
+nav ul.hide{
+    display:none;
+}
+
+.preston{
+    text-align: center;
+}
+ h1, h2, h3, h4, h5, h6{
+     
+     font-family: 'Raleway', sans-serif;
+ }
+ 
+
+ .hero{
+    margin: 10px auto;
+    justify-content: center;
+    width: 100%;
+
+ }
+
+ .heropic{
+     width: 100%
+ }
+ 
+
+ .weathersummary{
+     
+     background: radial-gradient(grey, lightgrey);
+     border: transparent;
+     padding: .5rem;
+     box-shadow: 0 0 20px #777;
+     opacity: .5;
+     
+     
+ }
+
+ table, th, td{
+     border: 1px solid #777;
+     border-collapse: collapse;
+     padding: 5px;
+ }
+
+ th{
+     font-weight: bold;
+     font-size: 20px;
+     background-color: #00B0DA;
+      }
+
+td{
+    background-color:white;
+    font-size: 15px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+ 
+#forecastdiv.hide{
+    display:none;
+}
+ .forecast{
+   display: flex;
+   justify-content: center;
+     
+ }
+
+ #article{
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .articlebody, .articleimg{
+     width: 50%;
+     flex: 1 0 15em;
+     margin: .5em;
+
+ }
+
+ #img1{
+     box-shadow: 6px 6px 6px black;
+     
+     width: 100%;
+ }
+ .box1{
+     margin:10px auto;
+    padding: 10px;
+    border: black solid 1px;
+    align-content: center;
+}
+ .box2{
+    width: 100%;
+    padding: 10px;
+    border: black solid 1px;
+    align-content: center;
+}
+ .box3{
+    background-color: lightgrey;
+    border: black solid 1px;
+    align-content: center;
+}
+
+ .box4{
+     background-color: lightgrey;
+     border: black solid 1px;
+     align-content: center;
+     width: 100%;
+ }
+
+ #contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.map, .contactinfo{
+    width: 50%;
+    flex: 1 0 15em;
+    margin: .5em;
+
+}
+
+.contactinfo{
+    text-align: center;
+}
+#mapdiv.hide{
+    display:none;
+}
+
+#banner{
+    display:none;
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    color:black;
+    text-align:center;
+    
+}
+.hide{
+    display:none;
+}
+ .footer{
+    padding: 20px;
+    margin: 15px;
+    background-color: #00B0DA;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
+}
+#lastmodified{
+    color:gold;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+    .map, .contactinfo{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
+    
+    }  
+    .weathersummary{
+        position: absolute;
+        top: 35rem;
+        left: 10rem;
+        background: radial-gradient(grey, lightgrey);
+        border: transparent;
+        padding: .5rem;
+        box-shadow: 0 0 20px #777;
+        opacity: .5;
+        
+        
+    }
+   
+   
+} /*end medium */
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 60em) {
+    nav{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
+background: #dbdbdb; /* Old browsers */
+background: -moz-linear-gradient(top,  #dbdbdb 0%, #aaaaaa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dbdbdb 0%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dbdbdb 0%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+        
+
+    }
+
+    
+    nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+     nav ul {
+         margin-left: 2%;
+     }
+
+   nav ul li{
+       float: left;
+   }
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;}
+
+    .hero{
+        margin: 10px auto;
+        position: relative;
+        justify-content: center;
+        width: 100%
+    
+     }
+    
+     
+    
+     .weathersummary{
+         position: absolute;
+         top: 5rem;
+         left: 10rem;
+         background: radial-gradient(grey, lightgrey);
+         border: transparent;
+         padding: .5rem;
+         box-shadow: 0 0 20px #777;
+         opacity: .5;
+         
+     }
+    #forecastdiv.hide{
+        display:flex;
+        align-items: center;
+    }
+    .forecast{
+        display: flex;
+        justify-content: center;
+          
+      }
+    .map, .contactinfo{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
+    
+    }
+  #mapdiv.hide{
+      display: flex;
+  }
+    .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+
+} /*end large */

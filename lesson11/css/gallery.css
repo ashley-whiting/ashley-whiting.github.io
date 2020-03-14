@@ -1,0 +1,288 @@
+
+@media only screen and (min-width: 20em) {
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+    body{
+        font-family: 'Overpass', sans-serif;
+        }
+     
+       
+        
+        
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 30px;
+            padding: 10px;
+            justify-content: center;
+            align-content: center;
+            margin: 10px auto;
+            width: 100%;
+            
+        }
+    
+        figure {
+            display: inline-block;
+            background-color: lightblue;
+            margin: 2px;
+            
+            
+           
+        }
+        figcaption{
+            font-size: large;
+            text-align: center;
+            padding: 5px;
+            display: block;
+                }
+       
+        figure img[data-src]{
+            filter: blur(0.2em);
+        }
+        
+        
+        figure img {
+            filter: blur(0em);
+            transition: filter 0.5s;
+            
+           
+            
+        }
+        
+        .img{
+            border: solid black 3px;
+            width: 500px;
+            height: 300px;
+            
+            
+        
+        }
+       
+     
+        #logo{
+            
+            position: relative;
+            background-color: #00B0DA;
+            border: #00b0da 1px solid;
+            border-radius: 4px;
+            width: 400px;
+            margin-top: -30px;
+        
+        }
+        .yours{
+            text-align:center;
+            margin-top: -55px;
+            font-size: .8em;
+            
+         }
+        .top-header{
+            padding: 45px;
+            background-color: #00B0DA;
+            color:white;
+            margin: 0;
+            
+        }
+    .top-header{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
+    nav button {
+        margin-left: 7em;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+        
+    }
+    
+    nav {
+        background-color: #d5d5d7;
+        font-size: 1.5em;
+        line-height: 3em;
+        margin-top: 65px;
+        font-family: 'Overpass', sans-serif;
+    
+    }
+    nav a {
+        color: black;
+        padding: 1em .6em;
+        
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: underline;
+        color: rgba(255,255,255,0.8);
+        border-top: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    
+    
+    
+    nav ul li.active a{
+        background-color: rgba(0,0,0,0.2); color: #fff;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.4);
+        text-decoration: underline;
+    }
+    
+    nav ul.hide{
+        display:none;
+    }
+    
+    .preston{
+        text-align: center;
+    }
+     h1, h2, h3, h4, h5, h6{
+         
+         font-family: 'Raleway', sans-serif;
+     }
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    
+    .hide{
+        display:none;
+    }
+     .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+    #lastmodified{
+        color:gold;
+    }
+    
+    
+    
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+
+    /* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+    
+  
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+
+   
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        justify-content: center;
+        align-content: center;
+        margin: 10px auto;
+        width: 100%;
+      
+    }
+   
+   
+} /*end medium */
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 60em) {
+    nav{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
+background: #dbdbdb; /* Old browsers */
+background: -moz-linear-gradient(top,  #dbdbdb 0%, #aaaaaa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dbdbdb 0%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dbdbdb 0%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+        
+
+    }
+   
+  
+    
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        justify-content: center;
+        align-content: center;
+        margin: 10px auto;
+        width: 100%;
+    }
+    nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+     nav ul {
+         margin-left: 2%;
+     }
+
+   nav ul li{
+       float: left;
+   }
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;}
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+       
+    h1{
+        text-align: center;
+       font-weight: bold;
+    }
+
+   
+   
+    .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+
+} /*end large */

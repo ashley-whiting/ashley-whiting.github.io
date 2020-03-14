@@ -1,0 +1,417 @@
+
+@media only screen and (min-width: 20rem) {
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+    body{
+        font-family: 'Overpass', sans-serif;
+        }
+     
+    header {
+        display:flex;
+        flex-flow: row;
+        width: 100%
+    }
+    header, footer{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #00B0DA;
+        color: black;
+    }   
+      
+     header, #top-header{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 15px;
+       
+    }
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 200px;
+        
+       
+    
+    }
+  
+
+
+    
+    nav button {
+        margin-left: 7em;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+        
+    }
+    
+    nav {
+        background-color: #d5d5d7;
+        font-size: 1.5em;
+        line-height: 3em;
+        margin-top: -10px;
+        font-family: 'Overpass', sans-serif;
+    
+    }
+    nav a {
+        color: black;
+        padding: 1em .6em;
+        
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: underline;
+        color: rgba(255,255,255,0.8);
+        border-top: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    
+    
+    
+    nav ul li.active a{
+        background-color: rgba(0,0,0,0.2); color: #fff;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.4);
+        text-decoration: underline;
+    }
+    
+    nav ul.hide{
+        display:none;
+    }
+    
+    .preston{
+        text-align: center;
+    }
+     h1, h2, h3, h4, h5, h6{
+         
+         font-family: 'Raleway', sans-serif;
+     }
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h2{
+        text-align: center;
+       
+    }
+   
+    h3 {
+        font-style: italic;
+        text-align: center;
+        
+
+        
+    }
+    
+    img {
+        align-self: center;
+        border: 1px solid black;
+        border-radius: 2px;
+        box-shadow: 0px 0px 20px black;
+    }
+    
+    .box1{
+        margin:10px auto;
+       padding: 10px;
+       border: black solid 1px;
+       align-content: center;
+   }
+    
+   .hero{
+        margin: 10px auto;
+        justify-content: center;
+        width: 100%;
+    
+     }
+    
+     .heropic{
+         width: 100%;
+         
+         
+     }
+    
+     div.cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 10px auto;
+        width: 50%;
+        
+      
+    }
+    
+    div.cards section{
+        display: grid;
+        justify-items: center;
+        border: 1px solid black;
+        background-color: lightskyblue;
+        box-shadow: 6px 6px 12px  darkgrey;
+        padding: 10px;
+        
+    }
+    
+    .box3{
+       
+        border: black solid 1px;
+        align-content: center;
+    }
+   
+    .forecasttitle{
+    font-weight: bold;
+    font-size: large;
+    }
+
+    #article{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .articlebody, .articlepic{
+        width: 50%;
+        flex: 1 0 15em;
+        margin: .5em;
+   
+    }
+    .box4{
+        background-color: lightgrey;
+        border: black solid 1px;
+        align-content: center;
+        width: 100%;
+    }
+   
+    #contact{
+       display: flex;
+       flex-flow: row wrap;
+       align-items: center;
+       justify-content: center;
+   }
+   .map, .contactinfo{
+       width: 50%;
+       flex: 1 0 15em;
+       margin: .5em;
+   
+   }
+   
+   .contactinfo{
+       text-align: center;
+   }
+  
+   
+   
+    #img1{
+        box-shadow: 6px 6px 6px black;
+         width: 90%;
+    } 
+    
+    .hide{
+        display:none;
+    }
+     .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: large;
+      
+        
+    }
+    #lastmodified{
+        text-decoration: underline;
+        color: gold;
+    }
+    
+    
+    
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+
+    /* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 50em) {
+    
+  
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 400px;
+    }
+        
+ 
+    
+    div.cards{
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+        
+    }
+      
+    div.cards section{
+        margin: 1em;
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-evenly;
+        
+       
+        
+        
+    }
+
+    div.cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+        
+      
+    }
+   
+} /*end medium */
+
+form.label.sbs{
+    padding: .4rem 0;
+    
+}
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 75rem) {
+    nav{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
+background: #dbdbdb; /* Old browsers */
+background: -moz-linear-gradient(top,  #dbdbdb 0%, #aaaaaa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dbdbdb 0%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dbdbdb 0%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+        
+
+    }
+   
+  
+    
+
+   nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+     nav ul {
+         margin-left: 2%;
+     }
+
+   nav ul li{
+       float: left;
+   }
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;}
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+       
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h2{
+        text-align: center;
+    }
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 600px;
+    }
+       
+    
+    div.cards{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        justify-content: center;
+        align-content: center;
+        margin: 10px auto;
+        width: 50%;
+        
+      
+    }
+    
+    div.cards section{
+        display: grid;
+        justify-items: center;
+        border: 1px solid black;
+        background-color: lightskyblue;
+        box-shadow: 6px 6px 12px  darkgrey;
+        padding: 5px;
+    }
+    
+    
+        .map, .contactinfo{
+            width: 50%;
+            flex: 1 0 15em;
+            margin: .5em;
+        
+        }
+      #mapdiv.hide{
+          display: flex;
+      }
+   
+    .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+
+} /*end large */

@@ -1,0 +1,312 @@
+
+@media only screen and (min-width: 20rem) {
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+    body{
+        font-family: 'Overpass', sans-serif;
+        }
+     
+    header {
+        display:flex;
+        flex-flow: row;
+        width: 100%
+    }
+    header, footer{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #00B0DA;
+        color: black;
+    }   
+      
+     header, #top-header{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 15px;
+       
+    }
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 200px;
+        
+       
+    
+    }
+  
+
+
+    
+    nav button {
+        margin-left: 7em;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+        
+    }
+    
+    nav {
+        background-color: #d5d5d7;
+        font-size: 1.5em;
+        line-height: 3em;
+        margin-top: 65px;
+        font-family: 'Overpass', sans-serif;
+    
+    }
+    nav a {
+        color: black;
+        padding: 1em .6em;
+        
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: underline;
+        color: rgba(255,255,255,0.8);
+        border-top: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    
+    
+    
+    nav ul li.active a{
+        background-color: rgba(0,0,0,0.2); color: #fff;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.4);
+        text-decoration: underline;
+    }
+    
+    nav ul.hide{
+        display:none;
+    }
+    
+    .preston{
+        text-align: center;
+    }
+     h1, h2, h3, h4, h5, h6{
+         
+         font-family: 'Raleway', sans-serif;
+     }
+    
+    h1{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    
+    form fieldset{
+        margin: 2rem 0;
+        border: 1px solid #445ba9;
+        border-radius: 10px;
+        padding: .5rem 2%;
+    }
+    form legend {
+        color: #445ba9;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+    
+    }
+    
+    form label.top, form div{
+        display: block;
+        padding-top: 1rem;
+        color: #9c2c13;
+        font-size: .8rem;
+    }
+    
+    form label.top input, form label.top select{
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    form label.sbs{
+        display: block;
+        padding: .75rem 0;
+        color: #555;
+    
+    }
+    
+    form input.submitBtn{
+        border: none;
+        background-color:#E9C86F;
+        color: black;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+    
+    form label.top input:required {
+        border-left: red solid 6px;
+    
+    }
+    
+    form label.top input:required:valid{
+        border-left: green solid 6px;
+    }
+    
+    textarea {
+        padding: 0.5rem;
+        margin-bottom: .25rem;
+    }
+    .flexly {
+        display: flex;
+        align-items: center;
+    }
+
+    #ratingvalue {
+        margin: 0 15px;
+    }
+        
+    
+    .hide{
+        display:none;
+    }
+     .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+    #lastmodified{
+        color:gold;
+    }
+    
+    
+    
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+
+    /* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 50rem) {
+    
+  
+    
+    h1{
+        text-align: center;
+        text-decoration: bold;
+    }
+
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 400px;
+        
+       
+    
+    }
+    
+    
+   
+} /*end medium */
+
+form.label.sbs{
+    padding: .4rem 0;
+    
+}
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 75rem) {
+    nav{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,aaaaaa+100 */
+background: #dbdbdb; /* Old browsers */
+background: -moz-linear-gradient(top,  #dbdbdb 0%, #aaaaaa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dbdbdb 0%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dbdbdb 0%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+        
+
+    }
+   
+  
+    
+
+   nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+     nav ul {
+         margin-left: 2%;
+     }
+
+   nav ul li{
+       float: left;
+   }
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;}
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+       
+    h1{
+        text-align: center;
+        text-decoration: bold;
+    }
+
+    #logo{
+        float: left;
+        border: black 1px solid;
+        border-radius: 3px;
+        width: 600px;
+        
+       
+    
+    }
+   
+    .footer{
+        padding: 20px;
+        margin: 15px;
+        background-color: #00B0DA;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+
+} /*end large */
