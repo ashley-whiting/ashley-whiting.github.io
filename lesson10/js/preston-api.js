@@ -6,11 +6,24 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('high').textContent = jsObject.main.temp;
     document.getElementById('speed').textContent = jsObject.wind.speed;
- 
-  const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-  const desc = jsObject.weather[0].description;  // note how we reference the weather array
-  
-  document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-  document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-  document.getElementById('icon').setAttribute('alt', desc);
+    let tempF = parseFloat(document.getElementById ("high").innerHTML);
+
+
+        let speed = parseFloat(document.getElementById("speed").innerHTML);
+        
+
+   
+        
+    if (tempF > 50 && speed < 3) {
+        document.getElementById("windchill").innerHTML = "N/A";}
+        else{    
+            
+        let f = 35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF * Math.pow(speed, 0.16));
+
+            document.getElementById('windchill').innerHTML = f.toFixed(1);
+       
+       
+    }
+
+
 });
