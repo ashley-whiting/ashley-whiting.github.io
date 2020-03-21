@@ -49,7 +49,7 @@
                <img class="heropic" src="images/hero-image.jpg" alt="hero-preston">
                <!--this is my overlay -->
                <section class="weathersummary">
-                <h3>Weather Summary</h3>
+                <h3 id="forecastline">Weather Summary</h3>
                 <p><b>Currently:</b><span id="current"></span></p>
                 <p><b>High:</b> <span id="high"></span>°F</p>
                 <p><b>Humidty:</b> <span id="humidity"></span>%</p>
@@ -64,7 +64,7 @@
                <div id="forecastdiv" class="hide"> 
                <div class="box2">
                  
-              <h3>5 Day Forecast</h3>
+              <h3 id="forecastline">5 Day Forecast</h3>
              <br>
              <div class="forecast">  
                 <table>
@@ -120,6 +120,9 @@
             </div>
             </div>
                <br>
+                <h2 id="event-title"> Preston Events</h2>
+                
+               <div class="events"></div>
               
            <div class="box3">
          
@@ -189,5 +192,6 @@
     <script src="js/windchill.js"></script>
     <script src="js/preston-api.js"></script>
     <script src="js/forecast.js"></script>
+    <script src="js/preston-events.js"></script>
     </body>
     </html>

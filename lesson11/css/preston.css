@@ -147,7 +147,7 @@ td{
 }
 h3{
     text-align: center;
-    text-decoration: underline;
+    
 }
  
 #forecastdiv.hide{
@@ -159,6 +159,17 @@ h3{
      
  }
 
+ #forecastline{
+     text-decoration: underline;
+ }
+
+ #event-title{
+     text-align:center;
+ }
+
+ div.events{
+     display: grid;
+ }
  #article{
      display: flex;
      flex-flow: row wrap;
