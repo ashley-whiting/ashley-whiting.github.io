@@ -116,6 +116,10 @@ nav ul.hide{
      width: 100%
  }
  
+ .havenhero{
+     width: 80%;
+     align-self: center;
+ }
 
  .weathersummary{
      
