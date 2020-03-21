@@ -281,6 +281,7 @@
         display: flex;
         flex-wrap: wrap;
         
+        
        
         
     }
@@ -300,7 +301,7 @@
         
     }
     div.cards img{
-        padding: 100px;
+        margin: 20px;
     }
     
     div.cards p{
