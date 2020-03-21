@@ -133,11 +133,14 @@ nav ul.hide{
 }
 
 
-
+table{
+    width:50%;
+}
  table, th, td{
-     border: 1px solid #777;
+     border: 2px solid #777;
      border-collapse: collapse;
      padding: 5px;
+     
  }
 
  th{
@@ -162,6 +165,7 @@ h3{
  .forecast{
    display: flex;
    justify-content: center;
+   
      
  }
 
