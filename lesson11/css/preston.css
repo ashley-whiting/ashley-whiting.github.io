@@ -121,7 +121,18 @@ nav ul.hide{
      align-self: center;
  }
 
- 
+ .weathersummary{
+     
+    background: radial-gradient(grey, lightgrey);
+    border: transparent;
+    padding: .5rem;
+    box-shadow: 0 0 20px #777;
+    opacity: .5;
+    
+    
+}
+
+
 
  table, th, td{
      border: 1px solid #777;
@@ -288,7 +299,7 @@ h3{
         border: transparent;
         padding: .5rem;
         box-shadow: 0 0 20px #777;
-        opacity: .5;
+        opacity: .8;
         
         
     }
@@ -345,11 +356,11 @@ nav ul li a{
          position: absolute;
          top: 5rem;
          left: 10rem;
-         background: radial-gradient(grey, lightgrey);
+         background: radial-gradient(grey, grey);
          border: transparent;
          padding: .5rem;
          box-shadow: 0 0 20px #777;
-         opacity: .5;
+         opacity: .8;
          
      }
     #forecastdiv.hide{
