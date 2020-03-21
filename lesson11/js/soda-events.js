@@ -11,7 +11,7 @@ fetch(requestURL)
     
     
     for (let i = 0; i < 6; i++ ) {
-        if (towns[i].name == "Fish Haven") {
+        if (towns[i].name == "Soda Springs") {
             
         
         
@@ -19,7 +19,7 @@ fetch(requestURL)
         let info = document.createElement('div');
         let name = document.createElement('h3');
         let test = document.createElement('h3');
-        let third = document.createElement('h3');
+        let nametest = document.createElement('h3');
        
         
       
@@ -30,7 +30,6 @@ fetch(requestURL)
     name.textContent = towns[i].events[0];
     test.textContent = towns[i].events[1];
     nametest.textContent = towns[i].events[2];
-    third.textContent = towns[i].events[3];
    
     
    
@@ -47,7 +46,6 @@ fetch(requestURL)
 info.appendChild(name);
 info.appendChild(test);
 info.appendChild(nametest);
-info.appendChild(third);
 card.appendChild(info);
 
 
