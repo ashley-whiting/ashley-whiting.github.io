@@ -172,6 +172,7 @@
         
     }
     
+   
     .box3{
        
         border: black solid 1px;
@@ -298,7 +299,14 @@
         
         
     }
-
+    div.cards img{
+        padding: 100px;
+    }
+    
+    div.cards p{
+        text-align: center;
+        align-items: center;
+    }
     div.cards section:nth-child(odd) {
         flex-direction: row-reverse;
         
