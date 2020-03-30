@@ -1,3 +1,12 @@
+@media only screen and (min-width: 20rem) {
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -5,3 +14,30 @@ body{
 h1, h2, h3, h4, h5, h6{
    font-family: 'Marcellus SC', serif;
 }
+
+header, footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #985941;
+    color: whitesmoke;
+} 
+
+
+ /*----- Clearfix: Force an Element not to collapse -----*/
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+} /*----end of small view---*/
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 50em) {
+    
+
+} /*end medium */
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 75rem) {
+
+} /*end large */
