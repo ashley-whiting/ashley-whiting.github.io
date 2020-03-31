@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Salmon River Adventures| Ashley Whiting | BYUI CIT 230</title>
+    <meta name="description" content="Salmon River Adventures Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+   
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC%7Roboto&display=swap" rel="stylesheet">
+   </head>
+
+   
+<body>
+    
+    <header>
+    <br>
+     <h4 class="topnumber">208.658.1124</h4>
+     <br>
+     
+         
+   </header>
+   <img id="logo" src="images/logo.jpg" alt="My Weather logo"> 
+   
+    
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+     <li class="active"><a href="https://ashley-whiting.github.io/final/home.html">Home</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/adventures.html">Adventures</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/guides.html">River Guides</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/contact.html">Contact Us</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/reservations.html">Reservations</a></li>
+     
+        
+    </ul>
+</nav>
+
+<br>
+
+    <main>
+     
+       
+            <div class="hero">
+                 <img class="heropic" src="images/hero.jpg" alt="homepic">
+                 <a href="https://ashley-whiting.github.io/final/reservations.html"><img class="heropic" src="images/action.jpg" alt="calltoaction"></a>
+                
+                 
+                </div>
+               
+                <div class="box2">
+                <img src="images/sun.jpg" alt="weather" class="weatherpic">
+                    <div class="weatherinfo">
+                    <h3>Current Weather - Riggins, Idaho</h3>
+                    <p><b>Currently:</b><span id="current"></span></p>
+                    <p><b>High:</b> <span id="high"></span>°F</p>
+                    <p><b>Humidty:</b> <span id="humidity"></span>%</p>
+                    <p><b>Wind Speed: </b><span id="speed"></span> mph</p>
+                    <p><b>Wind Chill:</b><span id="windchill"></span> °F</p>
+                    </div>
+                    </div>
+            
+                <h1 id="adventure">Choose Your Adventure</h1>
+                <div id="grid">
+                   <figure> <img src="images/raftingcopy.jpg" alt="rafting" class="adventurepic"></figure>
+                   
+                    <br>
+                   <figure> <img src="images/hikingcopy.jpg" alt="hiking" class="adventurepic"></figure>
+                    <br>
+                   <figure> <img src="images/campingcopy.jpg" alt="camping" class="adventurepic"></figure>
+                </div>
+                
+                <h1 id="adventure">Meet our Guides</h1>
+     </main>
+     <footer>
+
+     </footer>
+
+     <script src="js/togglemenu.js"></script>
+     <script src="js/riggins-api.js"></script>
+     <script src="js/windchill.js"></script>
+    
+     </body>
+     </html>
