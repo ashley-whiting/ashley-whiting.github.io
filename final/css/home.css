@@ -21,8 +21,61 @@ header, footer{
     background-color: #985941;
     color: whitesmoke;
 } 
+ .topnumber{
+     float: right;
+     margin-top: auto;
+ }
+
+ nav button {
+    margin-left: 7em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    
+}
+
+nav {
+    
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav a {
+    color: black;
+    padding: 1em .6em;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    
+    padding: .8rem 2%;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
 
 
+
+nav ul li.active a{
+   text-decoration: underline;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    text-decoration: underline;
+}
+
+nav ul.hide{
+    display:none;
+}
  /*----- Clearfix: Force an Element not to collapse -----*/
  .clearfix:after {
     content: "";
@@ -39,5 +92,32 @@ header, footer{
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 75rem) {
+    
+   
+  
+    
+
+   nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+     nav ul {
+         margin-left: 2%;
+     }
+
+   nav ul li{
+       float: right;
+   }
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem 1rem;}
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
 
 } /*end large */
