@@ -78,10 +78,7 @@ nav ul.hide{
     display:none;
 }
 
-.box1{
-   margin: 0 auto;  
-   align-content: center;
-}
+
 
 .hero{
     margin: 2px auto;
@@ -92,10 +89,46 @@ nav ul.hide{
 
  .heropic{
     width: 100%;
+     
+ }
+
+ .box2{
+    width:100%;
+    padding: 5px;
+    border: black solid 1px;
+  
+  
+}
+ .weatherpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
-   
+ }
+
+ .weatherinfo{
+     text-align: center;
+     justify-content: center;
+ }
+
+ #adventure{
+     color:#985941;
+     text-align: center;
      
-     
+ }
+ #grid{
+        display: flex;
+        flex-flow: row wrap;        
+        align-content: space-between;
+        justify-content: center;
+    }
+
+.adventurepic{
+    width: 400px;
+    padding: 10px;
+}
+
+
  }
  /*----- Clearfix: Force an Element not to collapse -----*/
  .clearfix:after {
@@ -108,7 +141,7 @@ nav ul.hide{
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 50em) {
     
-
+   
 } /*end medium */
 
 /* 64em is also 1028px when basefont is 16px */
@@ -121,7 +154,7 @@ nav ul.hide{
         display:block;
     }
     nav ul {
-        margin-left: 65%;
+        margin-left: 60%;
     }
     nav ul li{
         float: left;
