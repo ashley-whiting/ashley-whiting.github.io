@@ -125,9 +125,13 @@ nav ul.hide{
 
 .adventurepic{
     width: 400px;
-    padding: 10px;
+    height: 341px;
+   
 }
-
+figure:hover {
+    box-shadow: 0 0 50px #585b6e;
+}
+ 
 
  }
  /*----- Clearfix: Force an Element not to collapse -----*/
