@@ -21,14 +21,17 @@ header, footer{
     background-color: #985941;
     color: whitesmoke;
 } 
+#logo{
+    align-items: center;
+}
  .topnumber{
      float: right;
      margin-top: auto;
+     
  }
-
  nav button {
     margin-left: 7em;
-    background-color: transparent;
+    background-color: #585b6e;
     border: none;
     font-size: 1.6rem;
     color: #fff;
@@ -39,10 +42,12 @@ nav {
     
     font-size: 1.5em;
     line-height: 3em;
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: -300px;
     font-family: 'Roboto', sans-serif;
 
 }
+ 
 nav a {
     color: black;
     padding: 1em .6em;
@@ -55,27 +60,41 @@ nav ul {
 }
 
 nav ul li a{
-    
-    padding: .8rem 2%;
+    display: block;
+    padding: .5rem 1%;
+    text-decoration: none;
     color: black;
-    border-top: 1px solid rgba(0,0,0,0.3);
-
+   
 }
-
-
 
 nav ul li.active a{
-   text-decoration: underline;
-}
-
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
     text-decoration: underline;
 }
-
+nav ul li a:hover {
+    background-color: rgba(88,91,110,.8); color: black;
+    
+}
 nav ul.hide{
     display:none;
 }
+
+.box1{
+   margin: 0 auto;  
+   align-content: center;
+}
+
+.hero{
+    margin: 10px auto;
+    justify-content: center;
+    width: 100%;
+
+ }
+
+ .heropic{
+     width: 100%;
+     
+     
+ }
  /*----- Clearfix: Force an Element not to collapse -----*/
  .clearfix:after {
     content: "";
@@ -92,32 +111,25 @@ nav ul.hide{
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 75rem) {
-    
-   
-  
-    
-
-   nav button{
+    nav button{
         display:none;
     }
 
     nav ul.hide{
         display:block;
     }
-     nav ul {
-         margin-left: 2%;
-     }
-
-   nav ul li{
-       float: right;
-   }
-nav ul li a{
-    border: none;
-    border-right: 1px solid rgba(0,0,0,0.3);
-    padding: .6rem 1rem;}
-
-    figure:hover {
-        box-shadow: 0 0 50px #333;
+    nav ul {
+        margin-left: 65%;
     }
+    nav ul li{
+        float: left;
+        
+    }
+  
+    nav ul li a{
+        border: none;
+        padding: .6rem 1rem;}
+    
 
+  
 } /*end large */
