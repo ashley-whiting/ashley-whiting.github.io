@@ -131,8 +131,21 @@ nav ul.hide{
 figure:hover {
     box-shadow: 0 0 50px #585b6e;
 }
- 
+ .guides{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border: #585b6e solid 4px;
+    width: 75%;
+ }
 
+ #brownbox{
+    display: flex;
+    flex-flow: row wrap;        
+    align-content: space-between;
+    justify-content: center;
+ }
  
  /*----- Clearfix: Force an Element not to collapse -----*/
  .clearfix:after {
