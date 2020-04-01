@@ -94,7 +94,7 @@ th, td{
 
 
 thead th{
-    background-color: #628cab;
+    background-color: #585b6e;
     color: white;
     font-size: 1.1em;
     font-weight: bold;
@@ -102,29 +102,20 @@ thead th{
 }
 
 thead tr:first-child th{
-    background-color: #7fb9c2;
+    background-color: #985941;
     color: black;
     font-size: 1.6em;
     font-weight: bold;
 }
-table tr:nth-child(odd){
-    background-color: #e7f0ed;
 
-}
-table tr:nth-child(even){
-    background-color: #e7ffed;
-}
 
 tbody tr:nth-child(5) td{
     font-style: italic;
 }
 
-#cell{
-    background-color: #628cab;
-    color: white;
-}
+
 tfoot td{
-    background-color: #7fb9c2;
+    background-color: #585b6e;
     font-size: 0.8em;
     text-align: center;
 }
