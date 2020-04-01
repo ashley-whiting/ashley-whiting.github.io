@@ -1,0 +1,190 @@
+@media only screen and (min-width: 20rem) {
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Marcellus SC', serif;
+}
+
+header, footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #985941;
+    color: whitesmoke;
+} 
+#logo{
+    align-items: center;
+}
+ .topnumber{
+     float: right;
+     margin-top: auto;
+     
+ }
+ nav button {
+    margin-left: 7em;
+    background-color: #585b6e;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    
+}
+
+nav {
+    
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-top: -10px;
+    margin-bottom: -50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+ 
+nav a {
+    color: black;
+    padding: 1em .6em;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .5rem 1%;
+    text-decoration: none;
+    color: black;
+   
+}
+
+nav ul li.active a{
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    background-color: rgba(88,91,110,.8); color: black;
+    
+}
+nav ul.hide{
+    display:none;
+}
+
+
+div.cards{
+    
+    width: 100%;
+    
+  
+}
+
+div.cards section{
+    
+    padding: 5px;
+}
+
+#guidebanner{
+    float:right;
+}
+
+.h2guides{
+    color:#985941;
+  
+}
+.h3guides{
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #985941;
+    color: whitesmoke;
+} 
+
+ .footerpic{
+     width: 100%;
+ }
+ /*----- Clearfix: Force an Element not to collapse -----*/
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+} /*----end of small view---*/
+
+* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 50em) {
+    div.cards{
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+        
+    }
+      
+    div.cards section{
+        margin: 1em;
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-evenly;
+        
+       
+        
+        
+    }
+
+    div.cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+        
+      
+    }
+   
+} /*end medium */
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 75rem) {
+    nav button{
+        display:none;
+    }
+
+    nav ul.hide{
+        display:block;
+    }
+    nav ul {
+        margin-left: 60%;
+    }
+    nav ul li{
+        float: left;
+        
+    }
+  
+    nav ul li a{
+        border: none;
+        padding: .6rem 1rem;}
+    
+        div.cards{
+            margin: 10px;
+            width: 50%;
+            
+          
+        }
+        
+        div.cards section{
+           
+            padding: 5px;
+        }
+        
+  
+} /*end large */

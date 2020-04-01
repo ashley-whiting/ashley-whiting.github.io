@@ -29,11 +29,12 @@ image.setAttribute('src', "data/" + guides[i].photo);
 image.setAttribute('alt',guides[i].name  + (i+1));
 
 card.appendChild(h2);
+card.appendChild(image);
 card.appendChild(certification);
 card.appendChild(years);
 card.appendChild(email);
 card.appendChild(bio);
-card.appendChild(image);
+
 
 
 
