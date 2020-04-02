@@ -30,11 +30,11 @@
 <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="primaryNav" class="hide">
-     <li class="active"><a href="https://ashley-whiting.github.io/final/home.html">Home</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/home.html">Home</a></li>
      <li><a href="https://ashley-whiting.github.io/final/adventures.html">Adventures</a></li>
      <li><a href="https://ashley-whiting.github.io/final/guides.html">River Guides</a></li>
      <li><a href="https://ashley-whiting.github.io/final/contact.html">Contact Us</a></li>
-     <li><a href="https://ashley-whiting.github.io/final/reservations.html">Reservations</a></li>
+     <li class="active"><a href="https://ashley-whiting.github.io/final/reservations.html">Reservations</a></li>
      
         
     </ul>
@@ -119,6 +119,35 @@
                 </tr>
             </tfoot>
             </table>
+
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" required></label>
+                    </fieldset>
+
+                 
+                        <fieldset>
+                            <legend>Adventure Information</legend>
+                            <label  class="top"> Adventure Type:
+                                <select name="selectAdventure">
+                                    <option value="">Select Adventure &#9662;</option>
+                                <option value="data">Whitewater Rafting</option>
+                                <option value="data">Hiking</option>
+                                <option value="data">Camping</option>
+                                </select>
+                            </label>
+                            <label class="top">Start Date<input type="date" name="startDate"></label>
+
+                            <label class="top">Addition Information or Comments <br>
+                                <textarea name="message"></textarea></label>
+            
+                        
+                    </fieldset>
+                    <input type="submit" value="Start Your Adventure" name ="submit" class="submitBtn">
+                </form>
         </main>
         <footer>
             <div id="footer"> 
