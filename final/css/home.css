@@ -31,6 +31,7 @@ header, footer{
  }
  nav button {
     margin-left: 7em;
+    margin-bottom: 1.5em;
     background-color: #585b6e;
     border: none;
     font-size: 1.6rem;
@@ -147,6 +148,19 @@ figure:hover {
     justify-content: center;
  }
  
+ #contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#map,#call{
+    text-align: center;
+    justify-content: center;
+}
+
  #footer{
     width: 100%;
     margin: 0 auto;
@@ -167,7 +181,20 @@ figure:hover {
 
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 50em) {
-    
+    nav button {
+        margin-left: 7em;
+        margin-bottom: 1.5em;
+        background-color: #585b6e;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+        
+    }
+
+    #call{
+        margin-top: -250px;
+        padding: 25px;
+    }
    
 } /*end medium */
 
@@ -181,7 +208,7 @@ figure:hover {
         display:block;
     }
     nav ul {
-        margin-left: 60%;
+        margin-left: 35%;
     }
     nav ul li{
         float: left;
@@ -192,6 +219,15 @@ figure:hover {
         border: none;
         padding: .6rem 1rem;}
     
-
+        #call{
+            margin-top: -250px;
+            padding: 25px;
+        }
   
 } /*end large */
+
+@media only screen and (min-width: 100rem) {
+    nav ul {
+        margin-left: 50%;
+    }
+}

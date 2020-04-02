@@ -31,6 +31,7 @@ header, footer{
  }
  nav button {
     margin-left: 7em;
+    margin-bottom: 1.5em;
     background-color: #585b6e;
     border: none;
     font-size: 1.6rem;
@@ -207,7 +208,16 @@ textarea {
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 50em) {
     
-   
+    nav button {
+        margin-left: 7em;
+        margin-bottom: 1.5em;
+        background-color: #585b6e;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+        margin-bottom: 20px;
+        
+    }
 } /*end medium */
 
 /* 64em is also 1028px when basefont is 16px */

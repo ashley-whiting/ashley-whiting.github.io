@@ -7,6 +7,7 @@
     <meta name="description" content="Salmon River Adventures Home Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reservations.css">
     
    
     
@@ -30,10 +31,10 @@
 <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="primaryNav" class="hide">
-     <li class="active"><a href="https://ashley-whiting.github.io/final/home.html">Home</a></li>
+     <li><a href="https://ashley-whiting.github.io/final/home.html">Home</a></li>
      <li><a href="https://ashley-whiting.github.io/final/adventures.html">Adventures</a></li>
      <li><a href="https://ashley-whiting.github.io/final/guides.html">River Guides</a></li>
-     <li><a href="https://ashley-whiting.github.io/final/contact.html">Contact Us</a></li>
+     <li class="active"><a href="https://ashley-whiting.github.io/final/contact.html">Contact Us</a></li>
      <li><a href="https://ashley-whiting.github.io/final/reservations.html">Reservations</a></li>
      
         
@@ -46,14 +47,15 @@
      
 
 
-<p>Give Salmon River Adventures a call, 208.658.1124, now that you are familiar with some of the fundamentals of our adventures.
+<p class="weatherinfo">Give Salmon River Adventures a call, 208.658.1124, now that you are familiar with some of the fundamentals of our adventures.<br>
 
-    Our professional reservation staff will go through the details of reserving the ideal whitewater rafting trip for you.
+    Our professional reservation staff will go through the details of reserving the ideal whitewater rafting trip for you.<br>
     
     If you’d like to fill out our online <a href="https://ashley-whiting.github.io/final/reservations.html">Reservation Inquiry Form</a> to check availability, we will email or call you back quickly.</p>
     <br>
-    <img src="images/contactpic.jpg" alt="river">
+    <img src="images/contactpic.jpg" alt="river" class="weatherpic">
 
+    <section id="contact">
     <div id="call">
         <h2>Call Us</h2>
         <p>208.658.1124</p>
@@ -61,10 +63,26 @@
         <h2>Hours</h2>
         <p>Mon - Sat 8am - 4pm</p>
     </div>
+    
     <div id="map">
         <h2>Visit Us</h2>
         <p>1131 S Main St<br>
         Riggins, ID 83549</p>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.6900789035903!2d-116.32215354811639!3d45.41558887899781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c56c1512fddf%3A0xf619777ed0a5dd57!2s1131%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585840829709!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.6900789035903!2d-116.32215354811639!3d45.41558887899781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c56c1512fddf%3A0xf619777ed0a5dd57!2s1131%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585840829709!5m2!1sen!2sus" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</section>
+       
+        <h2>Cotact Form</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                </fieldset>
+                <input type="submit" value="Submit" name ="submit" class="submitBtn">
+                </form>
+        
+ 
