@@ -31,7 +31,7 @@ header, footer{
  }
  nav button {
     margin-left: 7em;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     background-color: #585b6e;
     border: none;
     font-size: 1.6rem;
@@ -210,7 +210,7 @@ textarea {
     
     nav button {
         margin-left: 7em;
-        margin-bottom: 1.5em;
+        margin-bottom: 2em;
         background-color: #585b6e;
         border: none;
         font-size: 1.6rem;
