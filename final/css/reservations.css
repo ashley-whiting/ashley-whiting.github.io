@@ -230,7 +230,7 @@ textarea {
         display:block;
     }
     nav ul {
-        margin-left: 60%;
+        margin-left: 35%;
     }
     nav ul li{
         float: left;
@@ -244,3 +244,8 @@ textarea {
 
   
 } /*end large */
+@media only screen and (min-width: 100rem) {
+    nav ul {
+        margin-left: 50%;
+    }
+}
