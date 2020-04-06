@@ -242,7 +242,11 @@ textarea {
         border: none;
         padding: .6rem 1rem;}
     
-
+        .dropdown-content{
+            display:none;
+            text-decoration: none;
+        }
+  
   
 } /*end large */
 @media only screen and (min-width: 100rem) {
