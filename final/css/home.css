@@ -31,11 +31,14 @@ header, footer{
     margin: 0 auto;
     background-color: #985941;
     color: whitesmoke;
+    padding: 4px;
 } 
 
  .topnumber{
      float: right;
      margin-top: auto;
+     margin-right: 5px;
+     font-family: 'Roboto', sans-serif;
      
  }
  nav button {
@@ -80,6 +83,8 @@ nav ul li a{
 nav ul li.active a{
     text-decoration: underline;
 }
+
+
 nav ul li a:hover {
     background-color: rgba(88,91,110,.8); color: black;
     
@@ -97,13 +102,16 @@ nav ul.hide{
 
 .dropdown-content{
     display:none;
+    text-decoration: none;
 }
 .dropdown-content a {
     display: block;
+    padding: 1%;
+    text-decoration: none;
 }
 
 .dropdown-content a:hover{
-    background-color: #585b6e;
+    background-color: rgba(88,91,110,.8);
   
 }
 .dropdown:hover .dropdown-content{
@@ -254,7 +262,10 @@ figure:hover {
             padding: 25px;
         }
 
-        
+        .dropdown-content{
+            display:none;
+            text-decoration: none;
+        }
   
 } /*end large */
 
