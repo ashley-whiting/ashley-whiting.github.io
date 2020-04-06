@@ -94,14 +94,19 @@ nav ul.hide{
     border: none;
     background-color:inherit;
 }
+
+.dropdown-content{
+    display:none;
+}
 .dropdown-content a {
     display: block;
 }
 
 .dropdown-content a:hover{
     background-color: #585b6e;
+  
 }
-.dropdown:hover .dropdown-contnet{
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
