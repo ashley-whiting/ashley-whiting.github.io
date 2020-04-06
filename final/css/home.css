@@ -21,9 +21,7 @@ header, footer{
     background-color: #985941;
     color: whitesmoke;
 } 
-#logo{
-    align-items: center;
-}
+
  .topnumber{
      float: right;
      margin-top: auto;
@@ -112,7 +110,7 @@ nav ul.hide{
      justify-content: center;
  }
 
- #adventure{
+ #adventure, #guides{
      color:#985941;
      text-align: center;
      
@@ -166,6 +164,7 @@ figure:hover {
     margin: 0 auto;
     background-color: #985941;
     color: whitesmoke;
+    text-align: center;
 } 
 
  .footerpic{
@@ -223,6 +222,8 @@ figure:hover {
             margin-top: -250px;
             padding: 25px;
         }
+
+        
   
 } /*end large */
 
