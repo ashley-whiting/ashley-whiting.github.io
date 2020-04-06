@@ -88,7 +88,22 @@ nav ul.hide{
     display:none;
 }
 
+.dropdown{
+    float:left;
+    overflow: hidden;
+    border: none;
+    background-color:inherit;
+}
+.dropdown-content a {
+    display: block;
+}
 
+.dropdown-content a:hover{
+    background-color: #585b6e;
+}
+.dropdown:hover .dropdown-contnet{
+    display: block;
+}
 
 .hero{
     margin: 2px auto;
