@@ -42,6 +42,7 @@ header, footer{
     
 }
 
+
  .topnumber{
      float: right;
      margin-top: auto;
@@ -49,6 +50,14 @@ header, footer{
      font-family: 'Roboto', sans-serif;
      
  }
+ #title{
+    float:right;
+    padding: .5em;
+    margin-top: auto;
+    margin-right: -12em;
+    color: #585b6e;
+  
+}
  nav button {
    display: block;
     margin-left: auto;
