@@ -23,7 +23,12 @@ header, footer{
     color: whitesmoke;
 } 
 #logo{
-    align-items: center;
+    padding: .5em;
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #title{
     float:right;
@@ -153,22 +158,42 @@ div.cards section{
 
 
 @media only screen and (min-width: 50em) {
-    nav button {
-        margin-left: 7em;
-        margin-bottom: 1.5em;
-        background-color: #585b6e;
-        border: none;
-        font-size: 1.6rem;
-        color: #fff;
-        margin-bottom: 20px;
-        
-    }
+    #logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -4.5em;
+       
+       
+     }
+       
+ 
+     nav button {
+             display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 1em;
+              background-color: #585b6e;
+              border: none;
+              font-size: 1.6rem;
+              color: #fff;
+              
+          }
     
    
 } /*end medium */
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 75rem) {
+    #logo{
+        padding: .5em;
+        margin-bottom: -.5em;
+        float: left;
+        
+    }
+    nav{
+    margin-top: 6em; 
+    
+    }
     nav button{
         display:none;
     }
@@ -187,17 +212,17 @@ div.cards section{
     nav ul li a{
         border: none;
         padding: .6rem 1rem;}
-        .dropdown{
-            float:left;
-        }
-                .dropdown-content{
-                    display:none;
-                    text-decoration: none;
-                }
     
         #call{
             margin-top: -250px;
             padding: 25px;
+        }
+.dropdown{
+    float:left;
+}
+        .dropdown-content{
+            display:none;
+            text-decoration: none;
         }
         div.cards{
             margin: 10px;
