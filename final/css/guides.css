@@ -80,7 +80,7 @@ nav ul.hide{
     display:none;
 }
 .dropdown{
-    float:left;
+    
     overflow: hidden;
     border: none;
     background-color:inherit;
@@ -103,7 +103,6 @@ nav ul.hide{
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
 div.cards{
     display: block;
     margin-left: auto;
@@ -180,6 +179,13 @@ div.cards section{
     nav ul li a{
         border: none;
         padding: .6rem 1rem;}
+        .dropdown{
+            float:left;
+        }
+                .dropdown-content{
+                    display:none;
+                    text-decoration: none;
+                }
     
         #call{
             margin-top: -250px;

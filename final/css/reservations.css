@@ -79,6 +79,30 @@ nav ul li a:hover {
 nav ul.hide{
     display:none;
 }
+.dropdown{
+    
+    overflow: hidden;
+    border: none;
+    background-color:inherit;
+}
+
+.dropdown-content{
+    display:none;
+    text-decoration: none;
+}
+.dropdown-content a {
+    display: block;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(88,91,110,.8);
+  
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 
 table, th, td{
     border: 1px solid #BBBBBB;
@@ -242,11 +266,13 @@ textarea {
         border: none;
         padding: .6rem 1rem;}
     
-        .dropdown-content{
-            display:none;
-            text-decoration: none;
+        .dropdown{
+            float:left;
         }
-  
+                .dropdown-content{
+                    display:none;
+                    text-decoration: none;
+                }
   
 } /*end large */
 @media only screen and (min-width: 100rem) {
