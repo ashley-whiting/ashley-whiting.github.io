@@ -104,6 +104,14 @@ nav ul.hide{
     display: block;
 }
 
+#title{
+    float:right;
+    padding: .5em;
+    margin-top: auto;
+    margin-right: -12em;
+    color: #585b6e;
+  
+}
 table, th, td{
     border: 1px solid #BBBBBB;
     border-collapse: collapse;

@@ -25,6 +25,14 @@ header, footer{
 #logo{
     align-items: center;
 }
+#title{
+    float:right;
+    padding: .5em;
+    margin-top: auto;
+    margin-right: -12em;
+    color: #585b6e;
+  
+}
  .topnumber{
      float: right;
      margin-top: auto;
