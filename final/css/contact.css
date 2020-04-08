@@ -153,10 +153,11 @@ nav ul.hide{
     text-align: center;
     justify-content: center;
 }
+
 .contactpic{
    margin-left:auto;
    margin-right:auto;
-    
+   width: 100%;    
     
  }
 #contactform{

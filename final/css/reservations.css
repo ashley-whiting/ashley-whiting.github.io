@@ -22,7 +22,12 @@ header, footer{
     color: whitesmoke;
 } 
 #logo{
-    align-items: center;
+    padding: .5em;
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
  .topnumber{
      float: right;
@@ -115,11 +120,17 @@ nav ul.hide{
 table, th, td{
     border: 1px solid #BBBBBB;
     border-collapse: collapse;
+    
+   
+    
 }
 
 table{
     border-spacing: 5px;
-    margin: 5px;
+    
+    margin-bottom: 3em;
+    
+    
     
 }
 th, td{
@@ -203,6 +214,8 @@ form input.submitBtn{
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    display: block;
+    margin: auto;
 }
 
 form label.top input:required {
@@ -240,21 +253,42 @@ textarea {
 
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 50em) {
-    
-    nav button {
-        margin-left: 7em;
-        margin-bottom: 2em;
-        background-color: #585b6e;
-        border: none;
-        font-size: 1.6rem;
-        color: #fff;
-        margin-bottom: 20px;
-        
-    }
+    #logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -4.5em;
+       
+       
+     }
+       
+ 
+     nav button {
+             display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 1em;
+              background-color: #585b6e;
+              border: none;
+              font-size: 1.6rem;
+              color: #fff;
+              
+          }
+          
+
 } /*end medium */
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 75rem) {
+    #logo{
+        padding: .5em;
+        margin-bottom: -.5em;
+        float: left;
+        
+    }
+    nav{
+    margin-top: 6em; 
+    
+    }
     nav button{
         display:none;
     }
@@ -274,14 +308,31 @@ textarea {
         border: none;
         padding: .6rem 1rem;}
     
-        .dropdown{
-            float:left;
+       
+.dropdown{
+    float:left;
+}
+        .dropdown-content{
+            display:none;
+            text-decoration: none;
         }
-                .dropdown-content{
-                    display:none;
-                    text-decoration: none;
-                }
-  
+
+        table{
+            border-spacing: 5px;
+            margin: 1em;
+            
+            
+        }
+        form input.submitBtn{
+            border: none;
+            background-color:#585b6e;
+            color: whitesmoke;
+            border-radius: 1rem;
+            padding: .75rem 1.5rem;
+            margin: 0 0 2rem 2%;
+            width: 96%;
+            max-width: 20rem;
+        }
 } /*end large */
 @media only screen and (min-width: 100rem) {
     nav ul {
