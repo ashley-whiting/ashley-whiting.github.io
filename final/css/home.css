@@ -200,7 +200,11 @@ figure:hover {
  }
 
  
- 
+ #lastmodified{
+    text-decoration: underline;
+    color: whitesmoke;
+    
+}
 
 
 
