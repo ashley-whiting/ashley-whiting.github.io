@@ -197,25 +197,11 @@ figure:hover {
     width: 75%;
  }
 
- #brownbox{
-    display: flex;
-    flex-flow: row wrap;        
-    align-content: space-between;
-    justify-content: center;
- }
  
- #contact{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    
-}
+ 
 
-#map,#call{
-    text-align: center;
-    justify-content: center;
-}
+
+
 
  #footer{
     width: 100%;
@@ -261,11 +247,6 @@ figure:hover {
          
    
    
-    #call{
-        margin-top: -250px;
-        padding: 25px;
-    }
-   
 } /*end medium */
 
 /* 64em is also 1028px when basefont is 16px */
@@ -299,10 +280,7 @@ figure:hover {
         border: none;
         padding: .6rem 1rem;}
     
-        #call{
-            margin-top: -250px;
-            padding: 25px;
-        }
+       
 .dropdown{
     float:left;
 }

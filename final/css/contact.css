@@ -9,11 +9,21 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
-
+main{
+    margin: 10px;
+}
 h1, h2, h3, h4, h5, h6{
    font-family: 'Marcellus SC', serif;
-   text-align: center;
+}
+
+h2{
+    color: #985941;
+}
+
+h3{
+    color: #585b6e;
 }
 
 header, footer{
@@ -21,6 +31,7 @@ header, footer{
     margin: 0 auto;
     background-color: #985941;
     color: whitesmoke;
+    padding: 4px;
 } 
 #logo{
     padding: .5em;
@@ -30,7 +41,16 @@ header, footer{
     margin-right: auto;
     
 }
-#title{
+
+
+ .topnumber{
+     float: right;
+     margin-top: auto;
+     margin-right: 5px;
+     font-family: 'Roboto', sans-serif;
+     
+ }
+ #title{
     float:right;
     padding: .5em;
     margin-top: auto;
@@ -38,14 +58,11 @@ header, footer{
     color: #585b6e;
   
 }
- .topnumber{
-     float: right;
-     margin-top: auto;
-     
- }
  nav button {
-    margin-left: 7em;
-    margin-bottom: 1.5em;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
     background-color: #585b6e;
     border: none;
     font-size: 1.6rem;
@@ -70,13 +87,13 @@ nav a {
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: .5em;
     margin: 0;
 }
 
 nav ul li a{
     display: block;
-    padding: .5rem 1%;
+    padding: .5em 1%;
     text-decoration: none;
     color: black;
    
@@ -85,6 +102,8 @@ nav ul li a{
 nav ul li.active a{
     text-decoration: underline;
 }
+
+
 nav ul li a:hover {
     background-color: rgba(88,91,110,.8); color: black;
     
@@ -92,6 +111,7 @@ nav ul li a:hover {
 nav ul.hide{
     display:none;
 }
+
 .dropdown{
     
     overflow: hidden;
@@ -116,36 +136,106 @@ nav ul.hide{
 .dropdown:hover .dropdown-content{
     display: block;
 }
-div.cards{
-    display: block;
-    margin-left: 2em;
-    margin-right: 2em;
+
+
+#contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
     
-  
+}
+.contactinfo{
+    text-align: center;
+    justify-content: center;
+}
+#map,#call{
+    text-align: center;
+    justify-content: center;
+}
+.contactpic{
+   margin-left:auto;
+   margin-right:auto;
+    
+    
+ }
+#contactform{
+    text-align: center;
+}
+form fieldset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 50%;
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
 }
 
-div.cards section{
-        margin-left: 1em;
-        margin-right: 1em;
-        justify-content: center;
-        border: 1px solid black;
-        background-color: lightgrey;
-        width: 100%;
-       
-    }
-
-div.cards section p{
-    margin-left: 2em;
-    margin-right: 2em;
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
 }
 
-div.cards section img{
-    margin-left: 2em;
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
 }
 
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
 
+}
 
-#footer{
+form input.submitBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    background-color:#585b6e;
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+textarea {
+    padding: 0.5rem;
+    margin-bottom: .25rem;
+}
+
+ #footer{
     width: 100%;
     margin: 0 auto;
     background-color: #985941;
@@ -164,29 +254,35 @@ div.cards section img{
   }
 } /*----end of small view---*/
 
-
+/* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 50em) {
     #logo{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: -4.5em;
-       
-       
-     }
-       
- 
-     nav button {
-             display: block;
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: 1em;
-              background-color: #585b6e;
-              border: none;
-              font-size: 1.6rem;
-              color: #fff;
-              
-          }
-    
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -4.5em;
+      
+      
+    }
+      
+
+    nav button {
+            display: block;
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: 1em;
+             background-color: #585b6e;
+             border: none;
+             font-size: 1.6rem;
+             color: #fff;
+             
+         }
+         
+   
+   
+    #call{
+        margin-top: -250px;
+        padding: 25px;
+    }
    
 } /*end medium */
 
@@ -232,24 +328,6 @@ div.cards section img{
             display:none;
             text-decoration: none;
         }
-        div.cards{
-            margin: 10px;
-            width: 100%;
-            text-align: center;
-          
-            
-          
-        }
-        
-        div.cards section{
-           
-            padding: 5px;
-        }
-        .dropdown-content{
-            display:none;
-            text-decoration: none;
-        }
-  
   
 } /*end large */
 
@@ -257,10 +335,4 @@ div.cards section img{
     nav ul {
         margin-left: 50%;
     }
-
-    
 }
-    
-        
-        
-  
