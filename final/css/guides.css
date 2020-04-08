@@ -155,7 +155,9 @@ div.cards section img{
     color: whitesmoke;
     text-align: center;
 } 
-
+#footerlink{
+    color:whitesmoke;
+}
  .footerpic{
      width: 100%;
  }
