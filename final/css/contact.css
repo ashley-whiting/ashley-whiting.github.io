@@ -41,7 +41,9 @@ header, footer{
     margin-right: auto;
     
 }
-
+ a{
+     color:#985941;
+ }
 
  .topnumber{
      float: right;
@@ -154,6 +156,10 @@ nav ul.hide{
     justify-content: center;
 }
 
+#map{
+    width:350px;
+    height: 500px;
+}
 .contactpic{
    margin-left:auto;
    margin-right:auto;

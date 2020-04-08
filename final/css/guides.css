@@ -30,6 +30,9 @@ header, footer{
     margin-right: auto;
     
 }
+a{
+    color:#985941;
+}
 #title{
     float:right;
     padding: .5em;

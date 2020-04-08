@@ -25,7 +25,9 @@ h2{
 h3{
     color: #585b6e;
 }
-
+ a {
+     color: #985941;
+ }
 header, footer{
     width: 100%;
     margin: 0 auto;

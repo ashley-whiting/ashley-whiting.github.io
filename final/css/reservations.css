@@ -34,6 +34,9 @@ header, footer{
      margin-top: auto;
      
  }
+ a{
+    color:#985941;
+}
  nav button {
     margin-left: 7em;
     margin-bottom: 2em;
