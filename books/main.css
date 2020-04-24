@@ -9,46 +9,116 @@ header {
   background-color: #6495ED;
   text-align: right;
   align-content: right;
+  padding: 2em;
+  
+}
+header a{
+    color: #FAEBD7;
+    text-decoration: none;
+   
 }
   main{
-    padding: 0px;
-    display: block;
-    margin: 0 auto;
-   background-color: #FAEBD7;
+    padding: 2em;
+    background-color: #FAEBD7;
 }
 h1, h2{
   font-family: 'Lora', serif;
 }
-  nav{
+hr{
+    width: 80%;
+    margin-left:5em;
+   
+}
+a {
+    color: #6495ED;
+}
+a:active{
+    color: #DEB887;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+nav{
     color: #FAEBD7;
+        
+  }
+  nav a{
+   color: #FAEBD7;
+  
+   
   }
   nav ul {
     list-style-type: none;
+    color: #FAEBD7;
+    
+  }
+  nav ul li{
+    padding: .5em .5%;
   }
   nav ul li a{
     text-decoration: none;
+    color: #FAEBD7;
+    padding: 5rem .5%;
     
   }
-  nav ul li a:hover:{
+  nav ul li a:hover{
     color: white;
     text-decoration:underline;
   }
   article{
     background-color: white;
-    width: 600px;
+    width: 80%;
     padding: 50px;
-    margin: 20px;
-    margin-top: -15px;
-    
+    box-shadow: 4px 4px 3px lightgrey;
+    margin-bottom: 2em;
+   
+     
   }
-  
+  figure img{
+      width: 100%;
+  }
+ section h2 a{
+     color: black;
+     text-decoration: none;
+ }
+ article a:active{
+     color: #DEB887;
+ }
+ article a:hover{
+     color: #6495ED;
+     text-decoration: underline;
+ }
   .post-date{
     color: grey;
+    
   }
 }
   @media only screen and (min-width: 60em) {
-header{
-    float:left;
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: none;
 }
-
+    header{
+    float:left;
+    flex: none;
+    
+}
+hr{
+    width: 100%;
+    margin-left:.5em;
+   
+}
+header{
+    text-align:right;
+}
+}
+article{
+    flex: none;
+}
+figure img{
+    width: 40%;
+}
 }
