@@ -25,7 +25,6 @@ h1, h2{
   font-family: 'Lora', serif;
 }
 hr{
-    width: 80%;
     margin-left:5em;
    
 }
@@ -76,11 +75,15 @@ nav{
      
   }
   figure img{
-      width: 100%;
+     width: 100%;
+     margin-top: 3em;
+      
   }
  section h2 a{
      color: black;
      text-decoration: none;
+     font-size: larger;
+     font-weight: bolder;
  }
  article a:active{
      color: #DEB887;
@@ -89,8 +92,13 @@ nav{
      color: #6495ED;
      text-decoration: underline;
  }
+ article p{
+     font-size: larger;
+     
+ }
   .post-date{
     color: grey;
+    margin-bottom: -1em;
     
   }
 }
@@ -99,11 +107,11 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    flex: none;
+   
 }
-    header{
+header{
     float:left;
-    flex: none;
+    
     
 }
 hr{
@@ -114,11 +122,20 @@ hr{
 header{
     text-align:right;
 }
+header h1 {
+    
 }
+
 article{
-    flex: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 figure img{
-    width: 40%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
 }
 }
