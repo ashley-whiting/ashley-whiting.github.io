@@ -1,0 +1,103 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 40% 25% 35%;
+  grid-template-rows: auto;
+  gap: 5px 1px;
+  grid-template-areas: 
+    "intro intro intro" 
+    "main main main"
+    "main main main"
+     "wrapper wrapper wrapper";
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 40% 25% 35%;
+  grid-template-rows: auto;
+  gap: 1px 1px;
+  grid-template-areas: "intro summary preamble";
+  grid-area: intro;
+  border: solid black 3px;
+  background-color: #00b4a6;
+  max-height: 30em;
+  
+}
+
+.summary { grid-area: summary;
+border: solid black 3px;
+background-color: #eccf6c;
+max-height: 10rem;}
+
+.preamble { grid-area: preamble;
+border: solid black 3px;
+background-color: #ec8665;
+height: 35rem;
+}
+#zen-supporting{
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: auto;
+  gap: 1px 1px;
+  grid-template-areas: 
+    "explanation explanation benefits" 
+    "requirements requirements requirements" 
+    "participation participation footer";
+  grid-area: main;
+}
+.explanation { grid-area: explanation;
+border: solid black 3px;
+background-color: #bcedea;
+}
+
+.participation { grid-area: participation;
+border: solid black 3px;
+background-color: #ec8665;}
+
+.requirements { grid-area: requirements;
+border: solid black 3px;
+background-color:  #eccf6c;}
+
+.benefits { grid-area: benefits;
+border: solid black 3px;
+background-color: #4c6b75;}
+
+footer { grid-area: footer;
+  background-color:#4c6b75;
+border: solid black 2px;}
+
+
+
+.wrapper{
+  background-color: yellow;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "selection archives resources";
+  
+}
+
+
+
+.design-selection{
+  background-color: #bcedea;
+  grid-area: selection;
+  width: 55rem;
+  border: solid black 2px;
+}
+
+.zen-resources{
+  background-color: #00b4a6;
+  grid-area: resources;
+  border: solid black 2px;
+  width: 40rem;
+  
+}
+.design-archives{
+  background-color: #eccf6c;
+  grid-area: archives;
+  border: solid-black 2px;
+  width: 10rem;
+}

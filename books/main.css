@@ -58,7 +58,7 @@ nav{
   nav ul li a{
     text-decoration: none;
     color: #FAEBD7;
-    padding: 5rem .5%;
+    padding: 2em .5%;
     
   }
   nav ul li a:hover{
@@ -71,6 +71,7 @@ nav{
     padding: 50px;
     box-shadow: 4px 4px 3px lightgrey;
     margin-bottom: 2em;
+    
    
      
   }
@@ -100,6 +101,7 @@ nav{
     color: grey;
     margin-bottom: -1em;
     
+    
   }
 }
   @media only screen and (min-width: 60em) {
@@ -111,25 +113,27 @@ div{
 }
 header{
     float:left;
+    display:block;
+    flex:none;
+    text-align: right;
     
-    
+}
+header h1{
+    margin-left:35%;
 }
 hr{
     width: 100%;
     margin-left:.5em;
    
 }
-header{
-    text-align:right;
-}
-header h1 {
-    
-}
+
+
 
 article{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    flex:none;
 }
 figure img{
     width: 50%;
