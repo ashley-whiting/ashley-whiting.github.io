@@ -1,4 +1,79 @@
-html, body, .grid-container { height: 100%; margin: 0; }
+@media only screen and (min-width: 20rem) {
+  html, body, .grid-container { height: 100%; margin: 0; }
+
+
+
+.intro{
+  border: solid black 3px;
+  background-color: #00b4a6;
+  
+}
+
+.summary{
+border: solid black 3px;
+background-color: #eccf6c;
+
+
+  
+}
+.preamble{
+ border: solid black 3px;
+background-color: #ec8665;
+}
+
+.explanation{
+  border: solid black 3px;
+background-color: #bcedea;
+}
+
+.participation{
+  border: solid black 3px;
+background-color: #eccf6c;
+}
+.explanation{
+  border: solid black 3px;
+background-color: #bcedea;
+}
+
+.requirements{
+  border: solid black 3px;
+background-color: #ec8665;
+}
+
+.benefits{
+  border: solid black 3px;
+background-color: #4c6b75;
+}
+
+.main supporting{
+  background-color: red;
+}
+
+.wrapper{
+  
+  border: solid black 2px;
+}
+
+footer{
+  background-color: #4c6b75;
+}
+
+.design-selection{
+  background-color: #bcedea;
+  border: solid black 2px;
+}
+
+.zen-resources{
+  background-color: #00b4a6;
+ border: solid black 2px;
+}
+.design-archives{
+  background-color: #eccf6c;
+ border: solid black 2px;
+}
+}
+
+@media only screen and (min-width: 50em) {
 
 .page-wrapper {
   display: grid;
@@ -73,8 +148,8 @@ border: solid black 2px;}
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-area: sidebar;
-  grid-template areas:
-    "wrapper wrapper wrapper"
+  grid-template-areas: 
+    "wrapper wrapper wrapper";
     
 }
 .wrapper{
@@ -108,4 +183,6 @@ border: solid black 2px;}
   grid-area: archives;
   border: solid-black 2px;
   width: 10rem;
+}
+
 }
