@@ -1,4 +1,16 @@
+
+ 
 @media only screen and (min-width: 20rem) {
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@700&display=swap'); 
+ 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+h1 h2 h3 {
+	font-family: 'Montserrat', sans-serif;
+}
   html, body, .grid-container { height: 100%; margin: 0; }
 
 
@@ -45,9 +57,7 @@ background-color: #ec8665;
 background-color: #4c6b75;
 }
 
-.main supporting{
-  background-color: red;
-}
+
 
 .wrapper{
   
@@ -73,116 +83,118 @@ footer{
 }
 }
 
+
 @media only screen and (min-width: 50em) {
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@700&display=swap'); 
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+  }
+  h1 h2 h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
 
-.page-wrapper {
-  display: grid;
-  grid-template-columns: 40% 25% 35%;
-  grid-template-rows: auto;
-  gap: 5px 1px;
-  grid-template-areas: 
-    "intro intro intro" 
-    "main main main"
-    "main main main"
-     "sidebar sidebar sidebar";
-}
-
-.intro {
-  display: grid;
-  grid-template-columns: 40% 25% 35%;
-  grid-template-rows: auto;
-  gap: 1px 1px;
-  grid-template-areas: "intro summary preamble";
-  grid-area: intro;
-  border: solid black 3px;
-  background-color: #00b4a6;
-  max-height: 30em;
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+    grid-template-rows: auto;
+    gap: 5px 1px;
+    grid-template-areas: 
+      "intro intro intro" 
+      "main main main"
+      "main main main";
+      
+  }
   
-}
-
-.summary { grid-area: summary;
-border: solid black 3px;
-background-color: #eccf6c;
-max-height: 10rem;}
-
-.preamble { grid-area: preamble;
-border: solid black 3px;
-background-color: #ec8665;
-height: 35rem;
-}
-#zen-supporting{
-  display: grid;
-  grid-template-columns: 20% 40% 40%;
-  grid-template-rows: auto;
-  gap: 1px 1px;
-  grid-template-areas: 
-    "explanation explanation benefits" 
-    "requirements requirements requirements" 
-    "footer participation participation";
-  grid-area: main;
-}
-.explanation { grid-area: explanation;
-border: solid black 3px;
-background-color: #bcedea;
-}
-
-.participation { grid-area: participation;
-border: solid black 3px;
-background-color: #ec8665;}
-
-.requirements { grid-area: requirements;
-border: solid black 3px;
-background-color:  #eccf6c;}
-
-.benefits { grid-area: benefits;
-border: solid black 3px;
-background-color: #4c6b75;}
-
-footer { grid-area: footer;
-  background-color:#4c6b75;
-border: solid black 2px;}
-
-
-.sidebar{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-area: sidebar;
-  grid-template-areas: 
-    "wrapper wrapper wrapper";
+  .intro {
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+    grid-template-rows: auto;
+    gap: 1px 1px;
+    grid-template-areas: "intro preamble summary";
+    grid-area: intro;
+    border: solid black 3px;
+    background-color: #00b4a6;
+    max-height: 30em;
     
-}
-.wrapper{
-  display: grid;
-  grid-area: wrapper;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "selection archives resources";
+  }
   
-}
-
-
-
-.design-selection{
+  .summary { grid-area: summary;
+  border: solid black 3px;
+  background-color: #eccf6c;
+  max-height: 10rem;
+  min-height: 30rem;
+  padding: 1em;}
+  
+  .preamble { grid-area: preamble;
+  border: solid black 3px;
+  background-color: #ec8665;
+  height: 25rem;
+    padding: 1em;
+  }
+  #zen-supporting{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: auto;
+    gap: 1px 1px;
+    grid-template-areas: 
+      "explanation explanation benefits" 
+      "requirements requirements requirements" 
+      "participation participation participation"
+      "footer footer footer";
+    grid-area: main;
+  }
+  .explanation { grid-area: explanation;
+  border: solid black 3px;
   background-color: #bcedea;
-  grid-area: selection;
-  width: 55rem;
+    min-height: 30rem;
+    padding: 1em;
+  }
+  
+  .participation { grid-area: participation;
+  border: solid black 3px;
+  background-color: #ec8665;
+  padding: 1em;}
+  
+  .requirements { grid-area: requirements;
+  border: solid black 3px;
+  background-color:  #eccf6c;
+  padding: 1em;}
+  
+  .benefits { grid-area: benefits;
+  border: solid black 3px;
+  background-color: #4c6b75;
+  min-height: 40rem;
+  padding: 1em;}
+  
+  footer { grid-area: footer;
+    background-color:#4c6b75;
+  border: solid black 2px;}
+  
+
+ .wrapper{
+   display: inline-block;
+   width: 200vw;
+  
+   
+   
+  }
+  .design-selection{
+  background-color: #bcedea;
   border: solid black 2px;
+ 
+   
 }
 
 .zen-resources{
   background-color: #00b4a6;
-  grid-area: resources;
-  border: solid black 2px;
-  width: 40rem;
+ border: solid black 2px;
   
 }
 .design-archives{
   background-color: #eccf6c;
-  grid-area: archives;
-  border: solid-black 2px;
-  width: 10rem;
+ border: solid black 2px;
+  
 }
-
 }
