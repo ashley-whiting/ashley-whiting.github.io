@@ -1,6 +1,8 @@
+
 .site-banner {
-    display: block;
+    display: flex;
     background-color:#056cb6;
+    justify-content: space-evenly;
   }
   
   .white-text{
@@ -14,6 +16,8 @@
   
   .icon-byui-logo:before {
     content: '\e90d';
+
+    background-color: black;
   }
 
 
